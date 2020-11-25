@@ -2,7 +2,7 @@ module.exports = {
   title: 'Project CX Documentation',
   tagline: '',
   url: 'https://docs.project-cx.com.au',
-  baseUrl: '/documentation/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
