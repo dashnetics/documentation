@@ -19,3 +19,7 @@ This command starts a local development server and open up a browser window. Mos
 ## Pull Requests
 
 Please submit pull requests for any required changes.
+
+## Deployment
+
+Once a pull request is merged, the site will automatically be deployed at docs.project-cx.com.au
