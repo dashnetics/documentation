@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Project CX Documentation',
   tagline: '',
-  url: 'https://proj-cx.github.io',
+  url: 'https://docs.project-cx.com.au',
   baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
