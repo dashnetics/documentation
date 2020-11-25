@@ -27,3 +27,5 @@ This command generates static content into the `build` directory and can be serv
 ## Deployment
 
 See internal documentation
+
+test force push not allowed
