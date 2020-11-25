@@ -28,4 +28,4 @@ This command generates static content into the `build` directory and can be serv
 
 See internal documentation
 
-test force push not allowed 3
+test force push not allowed 4
