@@ -14,13 +14,13 @@
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208); */
-  --ifm-color-primary: #39e04a;
-  --ifm-color-primary-dark: #0ca11b;
-  --ifm-color-primary-darker: #0b6113;
-  --ifm-color-primary-darkest: #02500a;
-  --ifm-color-primary-light: #51ec60;
-  --ifm-color-primary-lighter: #5fee6d;
-  --ifm-color-primary-lightest: #6aff79;
+  --ifm-color-primary: #0c971a;
+  --ifm-color-primary-dark: #098015;
+  --ifm-color-primary-darker: #044d0b;
+  --ifm-color-primary-darkest: #04410a;
+  --ifm-color-primary-light: #12b623;
+  --ifm-color-primary-lighter: #1cb82c;
+  --ifm-color-primary-lightest: #20d632;
 
   --ifm-code-font-size: 95%;
 }
