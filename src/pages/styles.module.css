@@ -5,6 +5,12 @@
  * and scoped locally.
  */
 
+/* FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
