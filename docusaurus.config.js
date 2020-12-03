@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Project CX',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -82,8 +82,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/proj-cx/documentation/',
+          // editUrl:
+          //   'https://github.com/proj-cx/documentation/blob/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
