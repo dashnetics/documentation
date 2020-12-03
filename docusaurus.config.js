@@ -33,44 +33,23 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Features',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Payment Gateway Integration',
+              to: 'docs/featues/paymentGateway',
             },
           ],
         },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'Twitter',
-        //       href: 'https://twitter.com/docusaurus',
-        //     },
-        //   ],
-        // },
         {
-          title: 'More',
+          title: 'Developers',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/proj-cx/documentation',
-            },
-          ],
-        },
+              label: 'API',
+              to: 'docs/api'
+            }
+          ]
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Project CX. Built with Docusaurus.`,
     },
