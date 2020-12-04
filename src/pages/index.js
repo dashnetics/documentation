@@ -8,39 +8,41 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Getting Started',
+    imageUrl: 'img/start.jpg',
+    url: 'docs/getting-started',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Get started using Project CX
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Features',
+    imageUrl: 'img/features.jpg',
+    url: 'docs/features',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Features of Project CX
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'API',
+    imageUrl: 'img/api.jpg',
+    url: 'docs/api',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Integrate other applications with Project CX
       </>
     ),
   },
 ];
 
-function Feature({ imageUrl, title, description }) {
+function Feature({ imageUrl, title, description, url }) {
   const imgUrl = useBaseUrl(imageUrl);
+  const linkUrl = useBaseUrl(url);
+
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
@@ -48,7 +50,7 @@ function Feature({ imageUrl, title, description }) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <h3><a href={linkUrl}>{title}</a></h3>
       <p>{description}</p>
     </div>
   );
@@ -59,22 +61,12 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
         </div>
       </header>
       <main>

@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    Features: ['main', 'features/paymentGateway'],
+    'Getting Started': ['gettingStarted/main'],
+    Features: ['features/main'],
     API: ['api']
   },
 };
