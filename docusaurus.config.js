@@ -11,17 +11,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Project CX',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
       items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
         {
           href: 'https://github.com/proj-cx/documentation',
           label: 'GitHub',
@@ -31,27 +21,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Features',
-          items: [
-            {
-              label: 'Payment Gateway Integration',
-              to: 'docs/featues/paymentGateway',
-            },
-          ],
-        },
-        {
-          title: 'Developers',
-          items: [
-            {
-              label: 'API',
-              to: 'docs/api'
-            }
-          ]
-        }
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Project CX. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Project CX.`,
     },
   },
   presets: [
