@@ -20,7 +20,7 @@ const features = [
   {
     title: 'Features',
     imageUrl: 'img/features.jpg',
-    url: 'docs/features',
+    url: 'docs/main',
     description: (
       <>
         Features of Project CX
