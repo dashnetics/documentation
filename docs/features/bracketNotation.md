@@ -21,9 +21,10 @@ The main places it's used in are:
 2. Initial Values
 3. Emails
 
-h2. Custom Fields
+## Custom Fields
 
-|_. Field |_. Used In |_. Purpose | 
+| Field | Used In | Purpose | 
+| ----- | ------- | ------- |
 | link     | Action Emails, Connect Emails  |  Link sent in the email to do the action |
 | status | Action Emails | Status of the actioned form (button used to start the action) |
 | sequence-number, sequenceNumber | Emails, Action Emails | Sequence number of the saved form |
@@ -32,10 +33,12 @@ h2. Custom Fields
 | connect-name, connectName | Connect Emails | Name of the connect account |
 | message | Payment error HTML | Error message returned from payment gateway |
 
-h3. Sale Custom Fields
+## Sale Custom Fields
 
-Various fields used in 
-|_. Field |_. Used In |_. Purpose | 
+Various fields used in.....
+
+| Field | Used In | Purpose | 
+| ----- | ------- | ------- |
 | saleItem.name | Sale Category - Grid, Sale Options - Purchase, Sale Options - Details, Cart Display | Name of the sale item | 
 | saleItem.description     | Sale Category - Grid, Sale Options - Purchase, Sale Options - Details   |  Description of the sale item |
 | saleItem.info | Sale Category - Grid, Sale Options - Purchase, Sale Options - Details | Info of the sale item |
@@ -58,11 +61,11 @@ Various fields used in
 | saleFee | HTML Text, Email | Total fee charged |
 | saleDiscount | HTML Text, Email | Total amount of discount |
 
-h2. Purchase Email
+## Purchase Email
 
 Note that the action to create the purchase email needs to be on the parent form, not a subform.
 
-h3. Sale Units
+## Sale Units
 
 In Purchase emails, Sale Units can be looped over using 
 ```
@@ -74,11 +77,10 @@ In Purchase emails, Sale Units can be looped over using
 
 Anything inside the two tags will be repeated for each sale unit.
 
-h3. Sale Items
+## Sale Items
 
 In Purchase emails, Sale Items can be looped over using 
 ```
-
 {{saleItem}}
 
 {{/saleItem}}
@@ -86,17 +88,18 @@ In Purchase emails, Sale Items can be looped over using
 
 Anything inside the two tags will be repeated for each sale item.
 
-h4. Custom Fields
+## Custom Fields
 
 Any custom fields on a sale item can be accessed inside the sale item loop using dot notation.
 
 
 
-h2. Formatting
+## Formatting
 
 Formats can be applied to items in Brackets using the pipe '|'.
 
-|_. Format |_. Description |
+| Format | Description |
+| ------ | ----------- | 
 | currency | Two decimal with a $ prefix |
 | percentage | Two decimal with a % postfix | 
 
