@@ -11,31 +11,19 @@ const features = [
     title: 'Getting Started',
     imageUrl: 'img/start.jpg',
     url: 'docs/getting-started',
-    description: (
-      <>
-        Get started using Project CX
-      </>
-    ),
+    description: <>Get started using Project CX</>,
   },
   {
     title: 'Features',
     imageUrl: 'img/features.jpg',
     url: 'docs/main',
-    description: (
-      <>
-        Features of Project CX
-      </>
-    ),
+    description: <>Features of Project CX</>,
   },
   {
     title: 'API',
     imageUrl: 'img/api.jpg',
     url: 'docs/api',
-    description: (
-      <>
-        Integrate other applications with Project CX
-      </>
-    ),
+    description: <>Integrate other applications with Project CX</>,
   },
 ];
 
@@ -50,7 +38,9 @@ function Feature({ imageUrl, title, description, url }) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3><a href={linkUrl}>{title}</a></h3>
+      <h3>
+        <a href={linkUrl}>{title}</a>
+      </h3>
       <p>{description}</p>
     </div>
   );
@@ -62,7 +52,8 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Description will go into a meta tag in <head />"
+    >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
