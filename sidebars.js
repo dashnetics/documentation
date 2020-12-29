@@ -6,7 +6,8 @@ module.exports = {
       'features/bracketnotation',
       'features/mailchimp',
       'features/selling',
-      'features/formactions',
+      'features/fieldtypes',
+      'features/formactions'
     ],
     API: ['api'],
   },

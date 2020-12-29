@@ -1,7 +1,7 @@
 ---
 id: mailchimp
 title: MailChimp Integration
-sidebar_label: mailchimp
+sidebar_label: Mailchimp
 ---
 
 
