@@ -1,7 +1,14 @@
 module.exports = {
   someSidebar: {
     'Getting Started': ['gettingStarted/main'],
-    Features: ['features/bracketnotation','features/fieldtypes','features/formactions','features/mailchimp','features/selling'],
-    API: ['api']
+    Features: [
+      'main',
+      'features/bracketnotation',
+      'features/mailchimp',
+      'features/selling',
+      'features/fieldtypes',
+      'features/formactions'
+    ],
+    API: ['api'],
   },
 };
