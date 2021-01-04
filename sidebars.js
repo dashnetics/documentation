@@ -8,6 +8,7 @@ module.exports = {
       'features/formactions',
       'features/mailchimp',
       'features/selling',
+      'features/stripe',
     ],
     API: ['api'],
   },
