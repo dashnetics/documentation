@@ -4,10 +4,10 @@ module.exports = {
     Features: [
       'main',
       'features/bracketnotation',
+      'features/fieldcontrols',
+      'features/formactions',
       'features/mailchimp',
       'features/selling',
-      'features/fieldtypes',
-      'features/formactions'
     ],
     API: ['api'],
   },
