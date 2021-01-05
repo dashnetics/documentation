@@ -6,10 +6,7 @@ sidebar_label: Stripe
 
 Online payments can be made using stripe. To integrate Strip with Project CX the Stripe Public Key and the Strip Private Key should be added to your  Settings / General page in the Administration module.
 
-<img
-  alt="Stripe Settings Screenshot"
-  src='https://project-cx.com.au/img/stripesettings.png'
-/>
+![img](../../static/img/stripesettings.png)
 
 Each page used for Stripe payments should include the 'Credit Card Entry' field control along with a 'Payment Amount' field control. Alternatively, if items are being sold using Project CX the 'Credit Card Entry" field control is required which will automatically use the value of the cart.
 
