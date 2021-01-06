@@ -2,7 +2,7 @@
 id: features-main
 title: Features
 sidebar_label: Features
-slug: /features
+slug: /main
 ---
 
-Features
+Learn about the main features of Project-CX.
