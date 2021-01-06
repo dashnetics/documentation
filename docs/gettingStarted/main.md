@@ -7,4 +7,4 @@ slug: /getting-started
 
 Getting Started - Under Development
 
-You can copy this or the hello world one.
+
