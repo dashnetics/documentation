@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    'Getting Started': ['gettingStarted/main'],
+    'Getting Started': ['gettingStarted/main', 'gettingStarted/hello1'],
     Features: [
       'main',
       'features/bracketnotation',
