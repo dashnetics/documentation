@@ -2,7 +2,7 @@ module.exports = {
   someSidebar: {
     'Getting Started': [
       'gettingStarted/main', 
-      'gettingStarted/hello1'
+      'gettingStarted/static'
     ],
     Features: [
       'features/features-main',
