@@ -7,8 +7,8 @@ module.exports = {
     Features: [
       'features/features-main',
       'features/bracketnotation',
-      'features/fieldcontrols',
       'features/formactions',
+      'features/formcontrols',
       'features/mailchimp',
       'features/selling',
       'features/stripe',

@@ -1,14 +1,14 @@
 ---
-id: fieldcontrols
-title: Field Controls
-sidebar_label: Field Controls
+id: formcontrols
+title: Form Controls
+sidebar_label: Form Controls
 ---
 
-Field controls can be added to a page to provide the necessary functionality. They can be used to capture data, display information, manage the page look and feel. There are three types of Field Controls:
+Form controls can be added to a page to provide the necessary functionality. They can be used to capture data, display information, manage the page look and feel. There are three types of Field Controls:
 
-## Types of Field Controls
+## Types of Form Controls
 
-| Field Control Types | Description |
+| Form Control Types | Description |
 | - | - |
 | Simple Entry | Enter data using various text entry or selection  |
 | Formatted Entry Area | Capture data that is formatted or has some data validation on entry | 
@@ -16,9 +16,9 @@ Field controls can be added to a page to provide the necessary functionality. Th
 | Complex Area | Functional widgets or group of fields |
 | Sales | Field controls associated with the sales of items |
 
-## List of fields in Alphabetical Order
+## List of Form Controls in Alphabetical Order
 
-| Field Control Name | Type |
+| Form Control Name | Type |
 | - | - |
 | Address Lookup | Complex |
 | Button | Simple Entry | 
@@ -49,6 +49,7 @@ Field controls can be added to a page to provide the necessary functionality. Th
 | Sale Category - Grid | Sales |
 | Sale Category Display | Sales |
 | Sale Options - Details| Sales |
+| Sale Options - List | Sales |
 | Sale Options - Purchase | Sales |
 | Same As Previous | Complex Area |
 | Select (Dropdown) | Simple Entry |
