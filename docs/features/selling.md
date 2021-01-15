@@ -52,31 +52,31 @@ d. Credit Card Entry
 
 ## a. Display of items
 
-Displaying items is done with a [[Form_Item_Types#Sale Category - Grid|Sale Category - Grid]] form item. Admins specify the Sale Category to display, and the Project-CX form to display the items in the sale category in.
+Displaying items is done with the form element Sale Category. Admins specify the Sale Category to display, and the Project-CX form to display the items in the sale category in.
 
-The form displayed, or another form coming off of this form, need to have a [[Form_Item_Types#Sales Options - Purchase|Sales Options - Purchase]] form item on it to allow users to purchase items.
+The form displayed, or another form coming off of this form, need to have the form element Sales Options - Purchase on it to allow users to purchase items.
 
-Certain Bracket Notation fields can be added to form items in this displayed form. [[Bracket_Notation#Sale Custom Fields|Bracket fields for Sales]]
+Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](bracketnotation) for more details.
 
 ## b. Collection of Details
 
-If required, users can collect information about each Sales Unit that is in the cart. This is done with a [[Form_Item_Types#Sale Option - Details|Sales Option - Details]] form item. You will specify the page to collect information about each Sales Unit.
+If required, users can collect information about each Sales Unit that is in the cart. This is done with the form item Sale Option - Details. You will specify the page to collect information about each Sales Unit.
 
-Certain Bracket Notation fields can be added to form items in this displayed form. [[Bracket_Notation#Sale Custom Fields|Bracket fields for Sales]]
+Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](bracketnotation) for more details.
 
 ## c. Display of the Cart
 
-Displaying the cart is done with a [[Form_Item_Types#Cart Display|Cart Display]] form item. You can enter HTML text to be used to display each sale unit in the cart.
+Displaying the cart is done with the form element Cart Display. You can enter HTML text to be used to display each sale unit in the cart.
 
-Certain Bracket Notation fields can be added to this HTML. [[Bracket_Notation#Sale Custom Fields|Bracket fields for Sales]]
+Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](bracketnotation) for more details.
 
 ## d Discount Code Entry
 
-Adding a [[Form_Item_Types#Discount Code Entry|Discount Code Entry]] allows users to enter a code to obtain a discount. Volume discounts will be calculated automatically and only the largest discount will be used.
+Adding the form element Discount Code Entry allows users to enter a code to obtain a discount. Volume discounts will be calculated automatically and only the largest discount will be used.
 
 ## e. Credit Card Details
 
-Credit card details are added to the form with a [[Form_Item_Types#Credit Card|Credit Card]] form item.
+Credit card details are added to the form with the form element Credit Card.
 
 
 

@@ -18,4 +18,4 @@ sidebar_label: First Static Page
 1. Enter a URI for your page
 1. Press 'Save'
 
-Your new page can now be viewed by using https://yourdomain/URI. The page won't show much yet but the page will display as a blank webpage.
+Your new page can now be viewed by using https://yourdomain/URI. The page will be mostly blank because we haven't added any elements to the page, but it will load as a white page with a Project CX message in the footer.
