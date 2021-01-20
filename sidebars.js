@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     'Getting Started': [
-      'gettingStarted/main', 
+      'gettingStarted/main',
       'gettingStarted/firstpage',
       'gettingStarted/addheading',
       'gettingStarted/addinputfield',
@@ -19,5 +19,10 @@ module.exports = {
       'features/stripe',
     ],
     API: ['api'],
+    'Add HTML and CSS': [
+      'addingHTMLandCSS/addHTML-main',
+      'addingHTMLandCSS/addHTML',
+      'addingHTMLandCSS/addCSS',
+    ],
   },
 };
