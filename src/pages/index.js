@@ -25,12 +25,12 @@ const features = [
     url: 'docs/api',
     description: <>Integrate other applications with Project CX</>,
   },
-  {
-    title: 'Add HTML and CSS',
-    imageUrl: 'img/html-css.jpg',
-    url: 'docs/add-html-css',
-    description: <>Add custom codes to your webpage using Project CX</>,
-  },
+  // {
+  //   title: 'Add HTML and CSS',
+  //   imageUrl: 'img/html-css.jpg',
+  //   url: 'docs/add-html-css',
+  //   description: <>Add custom codes to your webpage using Project CX</>,
+  // },
 ];
 
 function Feature({ imageUrl, title, description, url }) {

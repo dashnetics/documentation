@@ -8,6 +8,8 @@ module.exports = {
       'gettingStarted/addbutton',
       'gettingStarted/addbuttonaction',
       'gettingStarted/submitform',
+      'gettingStarted/createMenu',
+      'gettingStarted/addMenu',
     ],
     Features: [
       'features/features-main',
@@ -26,10 +28,5 @@ module.exports = {
       },
     ],
     API: ['api'],
-    // 'Add HTML and CSS': [
-    //   'addingHTMLandCSS/addHTML-main',
-    //   'addingHTMLandCSS/addHTML',
-    //   'addingHTMLandCSS/addCSS',
-    // ],
   },
 };
