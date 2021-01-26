@@ -20,7 +20,7 @@ From here, we have two ways of adding a menu to the newly created page.
 
 Just by doing this, we will get the result as follows:
 
-![img](../../static/img/menu-show-1.png)
+![img](../../static/img/menu-show.png)
 
 However, In order to style the menu we will need to follow the other way:
 
