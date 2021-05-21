@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.project-cx.com.au/blog</id>
+    <title>Project CX Documentation Blog</title>
+    <updated>2015-10-25T23:29:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.project-cx.com.au/blog"/>
+    <subtitle>Project CX Documentation Blog</subtitle>
+    <icon>https://docs.project-cx.com.au/img/favicon.ico</icon>
+</feed>
