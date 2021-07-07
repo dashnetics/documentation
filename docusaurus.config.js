@@ -2,7 +2,7 @@ module.exports = {
     title: 'Dashnetics Documentation',
     tagline: '',
     url: 'https://business-software-design.github.io/documentation/',
-    baseUrl: '/docs',
+    baseUrl: '/documentation',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
