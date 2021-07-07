@@ -1,7 +1,8 @@
 ---
+sidebar_position: 4.05
 id: addHTML
 title: Add HTML code to a Page
-sidebar_label: Add HTML
+sidebar_label: Adding HTML
 ---
 
 Custom codes can also be added to a page by adding an HTML Text Area.
@@ -17,7 +18,7 @@ Let's start by adding a simple HTML Text Area in a page.
 1. Select 'Setup Pages'
 1. Select the Form Control Icon
 
-![img](../../static/img/testpage.png)
+![img](//img/testpage.png)
 
 6. Select "Add" to add a form control.
 7. Enter a Name - For example, "html section"
@@ -25,11 +26,11 @@ Let's start by adding a simple HTML Text Area in a page.
 9. Width can remain as "0" to show the default width. This can be changed later if necessary
 10. Within the HTML Text area, add any html code that you want to display on that page.
 11. Check the box "Divider After". This will ensure the next element we add will appear below the heading.
-    ![img](../../static/img/addHTML-1.png)
+    ![img](//img/addHTML-1.png)
 12. Select "Save"
 
 You'll see the output as follows:
-![img](../../static/img/addHTML-1-output.png)
+![img](//img/addHTML-1-output.png)
 
 ---
 
