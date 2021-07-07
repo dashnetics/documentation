@@ -1,8 +1,8 @@
 module.exports = {
     title: 'Dashnetics Documentation',
     tagline: '',
-    url: 'https://business-software-design.github.io/documentation/',
-    baseUrl: '/documentation',
+    url: 'https://docs.project-cx.com.au',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
@@ -14,7 +14,7 @@ module.exports = {
             logo: {
                 alt: 'Dashnetics logo',
                 src: 'img/logo.png',
-                href: 'https://business-software-design.github.io/documentation/',
+                href: 'https://Dashnetics.com.au',
             },
             items: [
                 { to: "/", className: 'material-icons', label: 'home', position: 'left' },
