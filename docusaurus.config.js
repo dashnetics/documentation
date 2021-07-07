@@ -1,8 +1,8 @@
 module.exports = {
     title: 'Dashnetics Documentation',
     tagline: '',
-    url: 'https://docs.Dashnetics.com.au',
-    baseUrl: '/',
+    url: 'https://business-software-design.github.io/documentation/',
+    baseUrl: '/docs',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
@@ -14,7 +14,7 @@ module.exports = {
             logo: {
                 alt: 'Dashnetics logo',
                 src: 'img/logo.png',
-                href: 'https://Dashnetics.com.au',
+                href: 'https://business-software-design.github.io/documentation/',
             },
             items: [
                 { to: "/", className: 'material-icons', label: 'home', position: 'left' },
@@ -67,6 +67,7 @@ module.exports = {
                     // Please change this to your repo.
                     // editUrl:
                     //   'https://github.com/proj-cx/documentation/blob/master',
+
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
