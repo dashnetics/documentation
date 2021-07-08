@@ -13,13 +13,13 @@ Dashnetics is a cloud-based product.
 
 There is **nothing to install** in relation to the Software.
 
-You should receive an email with a link to your server url e.g. https://test2.cx.4d.net.au.
+You should receive an email with a link to your server url e.g. https://demo.dashnetics.com.au.
 
-The ADMIN server is reached simply by adding "admin." before the server url e.g. https://admin.test2.cx.4d.net.au
+The ADMIN server is reached simply by adding "admin." before the server url e.g. https://admin.demo.dashnetics.com.au
 
 You will have to set a user and password to sign in to your admin for the first time.
 
 Once you have signed in, you can access the admin function directly from this link.
 
-Once you choose a default landing page for your site, the original address will point directly to this page. e.g. https://test2.cx.4d.net.au/testpage1
+Once you choose a default landing page for your site, the original address will point directly to this page. e.g. https://demo.dashnetics.com.au/testpage1
 

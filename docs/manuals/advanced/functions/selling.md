@@ -57,19 +57,19 @@ Displaying items is done with the form element Sale Category. Admins specify the
 
 The form displayed, or another form coming off of this form, need to have the form element Sales Options - Purchase on it to allow users to purchase items.
 
-Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](bracketnotation) for more details.
+Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](../../beginner/terminology/#brackets) for more details.
 
 ## b. Collection of Details
 
 If required, users can collect information about each Sales Unit that is in the cart. This is done with the form item Sale Option - Details. You will specify the page to collect information about each Sales Unit.
 
-Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](bracketnotation) for more details.
+Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](../../beginner/terminology/#brackets) for more details.
 
 ## c. Display of the Cart
 
 Displaying the cart is done with the form element Cart Display. You can enter HTML text to be used to display each sale unit in the cart.
 
-Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](bracketnotation) for more details.
+Certain Bracket Notation fields can be added to form items in this displayed form. Check the [bracket notation documentation](../../beginner/terminology/#brackets) for more details.
 
 ## d Discount Code Entry
 

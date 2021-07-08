@@ -20,7 +20,7 @@ description: Create your first Page
 
 To access your admin site, simply type <h3 style={{ display: 'inline'}}>"admin."</h3> before your public url. 
 
-eg: https://admin.yourdomain.cx.4d.net.au
+eg: https://admin.demo.dashnetics.com.au
 
 
 ![img](/img/adminlogin-cfb3883e18efb80bf1eab39a6aba15ab.png)
@@ -151,13 +151,13 @@ Be sure to check 'Default', this will direct all traffic to this page by default
 
 ie: "test" page set as default can be accessed by:
 
-https://yourdomain.cx.4d.net.au/  or https://yourdomain.cx.4d.net.au/test
+https://demo.dashnetics.com.au/  or https://demo.dashnetics.com.au/test
 
 Leaving 'Default' unticked means you will need to add the page URI to the address in the browser or add it to a menu to access it.
 
 ie: "test" page not set as default can only be accessed by:
 
-https://yourdomain.cx.4d.net.au/test
+https://demo.dashnetics.com.au/test
 
 ![img](/img/set_default.png)
 
@@ -182,7 +182,7 @@ https://yourdomain.cx.4d.net.au/test
 
 
 
-Your new page can now be viewed by using https://yourdomain.cx.4d.net.au/test. 
+Your new page can now be viewed by using https://demo.dashnetics.com.au/test. 
 
 The page will be blank because we haven't added any elements to it.
 

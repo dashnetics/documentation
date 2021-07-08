@@ -24,7 +24,7 @@ Let's add 2 input fields to capture a first name and a last name.
 
 To access your admin site, simply type <h3 style={{ display: 'inline'}}>"admin."</h3> before your public url. 
 
-eg: https://admin.yourdomain.cx.4d.net.au
+eg: https://admin.demo.dashnetics.com.au
 
 
 ![img](/img/adminlogin-cfb3883e18efb80bf1eab39a6aba15ab.png)

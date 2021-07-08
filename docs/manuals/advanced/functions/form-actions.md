@@ -4,7 +4,7 @@ title: Form Actions
 sidebar_label: Form Actions
 sidebar_position: 31
 ---
-Information on Adding Actions to buttons can be found [here](../../getting-started/add-action)
+Information on Adding Actions to buttons can be found [here](../../beginner/add-action)
 
 ## Submit Actions
 

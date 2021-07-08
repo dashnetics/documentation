@@ -27,7 +27,7 @@ eg. a Page with URI Test will be accessed by https://yoursite.cx.4d.net.au/Test
 
 <p></p>
 Stands for Uniform Resource Identifier, when setting up Pages it has the same function as a URL (Uniform Resource Locator), it is the link to your webpage 
-eg. a Page with URI test will be accessed by https://yourdomain.cx.4d.net.au/test 
+eg. a Page with URI test will be accessed by https://demo.dashnetics.com.au/test 
 <p></p>
 
 :::danger  WARNING!  
