@@ -8,7 +8,7 @@ description: Submitted Forms description
 
 
 # Submitted Forms
-[<i className="material-icons-h1 end">videocam</i>](/static/vids/Dashnetics-submittedforms.mp4)
+[<i className="material-icons-h1 end">videocam</i>](/../static/vids/Dashnetics-submittedforms.mp4)
 
 
 We are now ready to submit a form and see the result in the Admin Module.

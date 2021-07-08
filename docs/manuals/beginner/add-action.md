@@ -8,7 +8,7 @@ description: Add Action to a Button description
 
 
 # Adding an Action to a Button
-[<i className="material-icons-h1 end">videocam</i>](/static/vids/Dashnetics-addaction.mp4)
+[<i className="material-icons-h1 end">videocam</i>](/../static/vids/Dashnetics-addaction.mp4)
 
 > Prerequisites: [a Page](first-page), [an Input](add-input), [a Button](add-button)
 
