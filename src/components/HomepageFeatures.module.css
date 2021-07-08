@@ -18,9 +18,9 @@
     position: relative;
     overflow: hidden;
     background-image: url(/img/navbar.jpg);
-    background-size: 100% auto;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
-
 }
 
 @media screen and (max-width: 966px) {
@@ -46,10 +46,4 @@
     width: 200px;
 }
 
-.hero {
-    align-items: center;
-    background-image: url(/img/navbar.jpg);
-    color: var(--ifm-hero-text-color);
-    display: flex;
 
-}

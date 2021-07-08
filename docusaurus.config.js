@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Dashnetics Documentation',
-    tagline: '',
+    tagline: 'Put yourself in the driver\'s seat',
     url: 'https://docs.project-cx.com.au',
     baseUrl: '/',
     onBrokenLinks: 'warn',
