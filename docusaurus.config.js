@@ -14,7 +14,7 @@ module.exports = {
             logo: {
                 alt: 'Dashnetics logo',
                 src: 'img/logo.png',
-                href: 'https://Dashnetics.com.au',
+                href: 'https://docs.project-cx.com.au',
             },
             items: [
                 { to: "/", className: 'material-icons', label: 'home', position: 'left' },
@@ -46,7 +46,7 @@ module.exports = {
                 //{ to: "skype:dominiccollier?call", className: 'material-icons', label: 'headset', position: 'right' },
                 { to: "tel: +61294999544", className: 'material-icons', label: 'call', position: 'right' },
                 { to: "mailto: help@Dashnetics.com.au", className: 'material-icons', label: 'mail', position: 'right' },
-                //{ to: "https://Dashnetics.com.au", className: 'material-icons', label: 'forum', position: 'right' },
+                //{ to: "https://dashnetics.com.au", className: 'material-icons', label: 'forum', position: 'right' },
 
             ],
         },
