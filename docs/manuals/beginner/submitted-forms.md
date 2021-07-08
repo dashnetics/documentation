@@ -11,7 +11,7 @@ description: Submitted Forms description
 [<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-submittedforms.mp4)
 
 
-We are now ready to submit a form and see the result in the Admin Module.
+We are now ready to submit a form and see the result in the Admin Module
 
 1.  Open a browser and load the page - https://demo.dashnetics.com.au/test (replace demo with your domain)
 2.  Enter a First Name and Last Name into the fields - For Example, John Smith
