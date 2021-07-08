@@ -8,7 +8,7 @@ description: Add Button description
 
 
 # Adding Buttons
-[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-AddButton.mp4)
+[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-addbutton.mp4)
 
 > Prerequisites: [a Page](first-page), [an Input](add-input)
 
