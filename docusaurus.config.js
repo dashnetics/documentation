@@ -3,7 +3,7 @@ module.exports = {
     tagline: '',
     url: 'https://docs.project-cx.com.au',
     baseUrl: '/',
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'proj-cx', // Usually your GitHub org/user name.
