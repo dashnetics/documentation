@@ -6,7 +6,7 @@ description: Create your first Page
 ---
 
 # Create your first Page 
-[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-addpage.mp4)
+[<i className="material-icons-h1 end">videocam</i>](/static/vids/Dashnetics-addpage.mp4)
 
 > Prerequisites: a link to set user / password [click here to request](mailto:help@Dashnetics.com.au)
 

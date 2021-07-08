@@ -5,7 +5,7 @@ title: Adding Headings
 description: Add a Heading
 ---
 # Adding Headings
-[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-addheader.mp4)
+[<i className="material-icons-h1 end">videocam</i>](/static/vids/Dashnetics-addheader.mp4)
 
 > Prerequisites: [a Page](first-page)
 
