@@ -217,8 +217,14 @@ h1 {
 .navbar__brand {
     color: gainsboro;
     vertical-align: bottom;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
-
+.navbar__logo {
+    height: 150%;
+/*    width: 100%;*/
+    margin-right: 0.1rem;
+}
 .footer--dark {
     --ifm-footer-background-color: #111111;
     --ifm-footer-color: var(--ifm-footer-link-color);
