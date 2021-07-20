@@ -51,7 +51,7 @@ Switching off the 'Send to Mailchimp' flag on a list will stop it being sent.
 
 Fields from the contacts or companies can be sent to mailchimp as merge fields.
 
-The names of the fields are case insensitive in Project-CX (including the ones listed below) but not in MailChimp (eg. if you add two fields 'Name' and 'name' as merge fields in Project-CX you will get two different fields in MailChimp with the value of the single field from Project-CX (called 'Name', 'name' or 'NAME' etc)
+The names of the fields are case insensitive in dashnetics (including the ones listed below) but not in MailChimp (eg. if you add two fields 'Name' and 'name' as merge fields in dashnetics you will get two different fields in MailChimp with the value of the single field from dashnetics (called 'Name', 'name' or 'NAME' etc)
 
 In addition to all custom fields, the following fields can be sent as Merge fields:
 

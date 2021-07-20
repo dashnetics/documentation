@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Dashnetics Documentation',
     tagline: 'Put yourself in the driver\'s seat',
-    url: 'https://docs.project-cx.com.au',
+    url: 'https://docs.dashnetics.com.au',
     baseUrl: '/',
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
@@ -45,7 +45,7 @@ module.exports = {
                 //{ to: '/blog', label: 'Blog', position: 'left' },
                 //{ to: "skype:dominiccollier?call", className: 'material-icons', label: 'headset', position: 'right' },
                 { to: "tel: +61294999544", className: 'material-icons', label: 'call', position: 'right' },
-                { to: "mailto: help@Dashnetics.com.au", className: 'material-icons', label: 'mail', position: 'right' },
+                { to: "mailto: help@dashnetics.com.au", className: 'material-icons', label: 'mail', position: 'right' },
                 //{ to: "https://dashnetics.com.au", className: 'material-icons', label: 'forum', position: 'right' },
 
             ],

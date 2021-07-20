@@ -5,4 +5,4 @@ sidebar_label: Features
 slug: /main
 ---
 
-Learn about the main features of Project-CX.
+Learn about the main features of dashnetics.
