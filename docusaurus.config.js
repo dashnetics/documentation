@@ -1,11 +1,11 @@
 module.exports = {
     title: 'Dashnetics Documentation',
     tagline: 'Put yourself in the driver\'s seat',
-    url: 'https://docs.project-cx.com.au',
+    url: 'https://docs.dashnetics.com.au',
     baseUrl: '/',
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/favicon.png',
     organizationName: 'proj-cx', // Usually your GitHub org/user name.
     projectName: 'documentation', // Usually your repo name.
     themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
             logo: {
                 alt: 'Dashnetics logo',
                 src: 'img/logo.png',
-                href: 'https://docs.project-cx.com.au',
+                href: 'https://docs.dashnetics.com.au',
             },
             items: [
                 { to: "/", className: 'material-icons', label: 'home', position: 'left' },
