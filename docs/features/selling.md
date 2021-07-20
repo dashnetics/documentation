@@ -4,7 +4,7 @@ title: Selling with Project CX
 sidebar_label: Selling
 ---
 
-Selling things with Project-CX is done by 
+Selling things with dashnetics is done by 
 
 1. Setting up the items to sell, and then
 
@@ -12,7 +12,7 @@ Selling things with Project-CX is done by
 
 ## Step 1. Setup items to sell
 
-Setting up items is done in the 'Online Store' section of Project-CX Admin
+Setting up items is done in the 'Online Store' section of dashnetics Admin
 
 ### a. Create one or more Sale Categories
 
@@ -52,7 +52,7 @@ d. Credit Card Entry
 
 ## a. Display of items
 
-Displaying items is done with the form element Sale Category. Admins specify the Sale Category to display, and the Project-CX form to display the items in the sale category in.
+Displaying items is done with the form element Sale Category. Admins specify the Sale Category to display, and the dashnetics form to display the items in the sale category in.
 
 The form displayed, or another form coming off of this form, need to have the form element Sales Options - Purchase on it to allow users to purchase items.
 
@@ -84,9 +84,9 @@ Credit card details are added to the form with the form element Credit Card.
 
 ## Glossary
 
-| Customer | Person using the Project-CX application to purchase something |
+| Customer | Person using the dashnetics application to purchase something |
 | - | -|
-| Admin | Person Setting up Project-CX |
+| Admin | Person Setting up dashnetics |
 | Cart | Sale Units that the customer is ready to buy | 
 | Sale Category | Collection of Items to sell |
 | Sale Item | An item to sell (eg. Coaching Clinic), the item will have options and belong to one or more categories |

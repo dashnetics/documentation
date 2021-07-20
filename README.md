@@ -22,4 +22,4 @@ Please submit pull requests for any required changes.
 
 ## Deployment
 
-Once a pull request is merged, the site will automatically be deployed at docs.project-cx.com.au
+Once a pull request is merged, the site will automatically be deployed at docs.dashnetics.com.au
