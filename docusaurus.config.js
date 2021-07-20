@@ -14,7 +14,7 @@ module.exports = {
             logo: {
                 alt: 'Dashnetics logo',
                 src: 'img/logo.png',
-                href: 'https://docs.project-cx.com.au',
+                href: 'https://docs.dashnetics.com.au',
             },
             items: [
                 { to: "/", className: 'material-icons', label: 'home', position: 'left' },
