@@ -7,22 +7,37 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  /* --ifm-color-primary: #25c2a0;
+    /* --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208); */
-  --ifm-color-primary: #0c971a;
-  --ifm-color-primary-dark: #098015;
-  --ifm-color-primary-darker: #044d0b;
-  --ifm-color-primary-darkest: #04410a;
-  --ifm-color-primary-light: #12b623;
-  --ifm-color-primary-lighter: #1cb82c;
-  --ifm-color-primary-lightest: #20d632;
+    --ifm-color-primary: #0c971a;
+    --ifm-color-primary-dark: #098015;
+    --ifm-color-primary-darker: #044d0b;
+    --ifm-color-primary-darkest: #04410a;
+    --ifm-color-primary-light: #12b623;
+    --ifm-color-primary-lighter: #1cb82c;
+    --ifm-color-primary-lightest: #20d632;
+    --ifm-code-font-size: 95%;
 
-  --ifm-code-font-size: 95%;
+    --ifm-navbar-background-color: var(--ifm-background-surface-color);
+    --ifm-navbar-height: 3.75rem;
+    --ifm-navbar-item-padding-horizontal: 1rem;
+    --ifm-navbar-item-padding-vertical: 0.25rem;
+    --ifm-navbar-link-color: var(--ifm-font-color-base);
+    --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+    --ifm-navbar-link-active-color: var(--ifm-link-color);
+    --ifm-navbar-padding-horizontal: var(--ifm-spacing-horizontal);
+    --ifm-navbar-padding-vertical: calc(var(--ifm-spacing-vertical) * 0.5);
+    --ifm-navbar-shadow: var(--ifm-global-shadow-lw);
+    --ifm-navbar-search-input-background-color: var(--ifm-color-emphasis-200);
+    --ifm-navbar-search-input-color: var(--ifm-color-emphasis-800);
+    --ifm-navbar-search-input-placeholder-color: var(--ifm-color-emphasis-500);
+    --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
+    --ifm-navbar-sidebar-width: 80vw;
 }
 
 .docusaurus-highlight-code-line {
@@ -30,4 +45,32 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+/*.navbar__logo {
+    height: 100%;
+    margin-right: 0.5rem;
+    background-color: rgb(72, 77, 91);
+}*/
+.navbar--fixed-top {
+    position: sticky;
+    top: 0;
+    z-index: var(--ifm-z-index-fixed);
+    background-color: #111111
+}
+.primary {
+    color: var(--ifm-color-primary);
+}
+.navbar__link {
+    color: gainsboro
+}
+
+.navbar__brand {
+    color: gainsboro;
+    vertical-align: bottom;
+}
+.footer--dark {
+    --ifm-footer-background-color: #111111;
+    --ifm-footer-color: var(--ifm-footer-link-color);
+    --ifm-footer-link-color: var(--ifm-color-secondary);
+    --ifm-footer-title-color: var(--ifm-color-white);
 }

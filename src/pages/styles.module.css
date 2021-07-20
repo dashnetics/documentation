@@ -12,10 +12,13 @@
   font-family: 'Poppins', sans-serif;
 }
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url(/img/navbar.jpg);
+    background-size: 100% auto; 
+    color: #fff;
 }
 
 @media screen and (max-width: 966px) {
@@ -40,4 +43,10 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+.hero {
+    align-items: center;
+    background-image: (/img/navbar.jpg);
+    color: var(--ifm-hero-text-color);
+    display: flex;
 }

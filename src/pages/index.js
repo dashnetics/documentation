@@ -5,23 +5,24 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Icon from "@material-ui/core/Icon";
 
 const features = [
   {
     title: 'Getting Started',
-    imageUrl: 'img/start.jpg',
+    imageUrl: 'img/road-start.jpg',
     url: 'docs/getting-started',
     description: <>Get started using Project CX</>,
   },
   {
     title: 'Features',
-    imageUrl: 'img/features.jpg',
+    imageUrl: 'img/road-features.jpg',
     url: 'docs/main',
     description: <>Features of Project CX</>,
   },
   {
     title: 'API',
-    imageUrl: 'img/api.jpg',
+    imageUrl: 'img/road-api.jpg',
     url: 'docs/api',
     description: <>Integrate other applications with Project CX</>,
   },
