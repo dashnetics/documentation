@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Dashnetics Documentation',
     tagline: 'Put yourself in the driver\'s seat',
-    url: 'https://docs.dashnetics.com.au',
+    url: 'https://docs.project-cx.com.au',
     baseUrl: '/',
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
@@ -14,7 +14,7 @@ module.exports = {
             logo: {
                 alt: 'Dashnetics logo',
                 src: 'img/logo.png',
-                href: 'https://docs.dashnetics.com.au',
+                href: 'https://docs.project-cx.com.au',
             },
             items: [
                 { to: "/", className: 'material-icons', label: 'home', position: 'left' },
