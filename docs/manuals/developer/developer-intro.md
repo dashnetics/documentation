@@ -35,6 +35,6 @@ Clicking <i className="material-icons">forum</i> opens a live chat with a Busine
 
 Enjoy the journey, 
 
-[ ![](/img/favicon.ico) ](https://Dashnetics.com.au)
+[ ![](/img/favicon.png) ](https://Dashnetics.com.au)
 
 Dashnetics - Support Team.

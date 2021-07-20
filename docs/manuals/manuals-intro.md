@@ -6,7 +6,7 @@ sidebar_position: 1
 Here you will discover 
 
 
-## [Beginners User Manuals](/docs/manuals/getting-started/beginner-intro)
+## [Beginners User Manuals](/docs/manuals/beginner/beginner-intro)
 
 ## [Advanced User Manuals](/docs/manuals/advanced/advanced-intro)
 

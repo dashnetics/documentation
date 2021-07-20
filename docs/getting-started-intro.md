@@ -71,7 +71,7 @@ you will have access to <i className="material-icons color">mail</i> and a new i
 
 Enjoy the journey, 
 
-[ ![](/img/favicon.ico) ](https://Dashnetics.com.au)
+[ ![](/img/favicon.png) ](https://Dashnetics.com.au)
 
 Dashnetics - Support Team.
 

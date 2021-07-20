@@ -41,7 +41,7 @@ Viewing and exporting the submitted forms.
 
 Enjoy the journey, 
 
-[ ![](/img/favicon.ico) ](https://dashnetics.com.au)
+[ ![](/img/favicon.png) ](https://dashnetics.com.au)
 
 Dashnetics - Support Team.
 
