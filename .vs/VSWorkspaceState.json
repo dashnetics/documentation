@@ -2,14 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\docs",
-    "\\docs\\manuals\\beginner",
-    "\\docs\\manuals\\styling",
-    "\\docs\\tutorials",
-    "\\src\\components",
-    "\\src\\css",
-    "\\src\\pages",
-    "\\static\\img",
-    "\\static\\vids"
+    "\\docs\\tutorials"
   ],
   "SelectedNode": "\\docs\\tutorials\\tutorials-intro.md",
   "PreviewInSolutionExplorer": false
