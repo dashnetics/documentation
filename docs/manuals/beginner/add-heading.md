@@ -88,7 +88,7 @@ eg: https://admin.demo.dashnetics.com.au
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 5.  Select Items Icon </h3>
+<h3 style={{ display: 'inline'}}> 5.  Select Items Icon <span class="buttontext"> <i className="material-icons">list_alt</i></span> </h3>
 
 </summary><p></p>
 
