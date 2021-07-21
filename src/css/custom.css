@@ -166,8 +166,9 @@ h1 {
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208); */
-    --ifm-color-primary: #0c971a;
-    --ifm-color-primary-dark: #098015;
+    --ifm-color-primary: #6dab51;
+    --ifm-color-secondary: #2f6542;
+    --ifm-color-primary-dark: #2f6542;
     --ifm-color-primary-darker: #044d0b;
     --ifm-color-primary-darkest: #04410a;
     --ifm-color-primary-light: #12b623;
@@ -224,6 +225,9 @@ h1 {
     height: 150%;
 /*    width: 100%;*/
     margin-right: 0.1rem;
+}
+.navbar svg {
+    color: var(--ifm-color-primary);
 }
 .footer--dark {
     --ifm-footer-background-color: #111111;
