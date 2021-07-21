@@ -47,7 +47,7 @@ const FeatureList = [
         title: 'Connecting other Applications',
         imageUrl: 'img/road-api.jpg',
         addr: () => {
-            window.location.href = "http://businesssoftware.design"
+            window.location.href = "http://dashnetics.com.au"
         },
         description: (
             <>
