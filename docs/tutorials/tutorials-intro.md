@@ -33,7 +33,10 @@ Viewing and exporting the submitted forms.
 ## Styling Tutorials
 ---
 [<i className="material-icons-h2">videocam</i> Adding a Font ](/vids/Dashnetics-addfont.mp4)
-Adding custom fonts to your site to match your Marketing Message. 
+Adding custom fonts to your site to match your Marketing Message.
+
+[<i className="material-icons-h2">videocam</i> Adding Blank Space ](/vids/Dashnetics-addspace.mp4)
+Adding spaces to your page to customise your layout.
 
 [<i className="material-icons-h2">videocam</i> Adding an i-Frame ](/vids/Dashnetics-addiframe.mp4)
 Adding an i-Frame to a page in order to display an external site or page from within your dashnetics page. 

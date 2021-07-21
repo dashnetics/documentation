@@ -4,12 +4,12 @@ id: add_font
 title: Add a Font
 sidebar_label: Add a Font
 ---
+[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-addfont.mp4)
 
 Fonts can be applied to Pages by adding them as an HTML Text Area.
 
 ---
 ## To Add a Font-Family to your Page
-[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-addfont.mp4)
 * * *
 
 Let's start by adding an Iframe to our page.

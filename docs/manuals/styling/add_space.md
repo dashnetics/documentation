@@ -1,19 +1,18 @@
 ---
-sidebar_position: 02.03
-id: add_iframe
-title: Add an I-Frame
-sidebar_label: Add an I-Frame
+sidebar_position: 02.05
+id: add_space
+title: Add a Blank Space
+sidebar_label: Add a Blank Space
 ---
-[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-addiframe.mp4)
+[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-addspace.mp4)
 
-Iframes contain whole html pages, complete with styling etc .
-They can be removed or applied to Pages by adding them as an HTML Text Area.
+Fonts can be applied to Pages by adding them as an HTML Text Area.
 
 ---
-## To Add an Iframe to your Page
+## To Add a Blank Space to your Page
 * * *
 
-Let's start by adding an Iframe to our page.
+On this page, you will learn how to add a space to your page, to customise the layout.
 
 
 <details>
@@ -172,24 +171,21 @@ This can be changed later if necessary
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 10.  Within the HTML Text area, type or copy your styling text</h3> 
+<h3 style={{ display: 'inline'}}> 10.  Within the HTML Text area, type or copy a blank div with height & other attributes to suit</h3> 
 
 ```
-<iframe
-style="margin: 0; 
-overflow: hidden!important;
-position:absolute; 
-left: 0px; top: 0px; 
-width: 100%!important; height: 100%!important; 
-id="iframe_a" name="iframe_a"
-src="https://docs.dashnetics.com.au"><!-- change this to your page url -->
-Your browser does not support iframes.
-</iframe>
+<div style="height:30px;"></div>
 
 ```
+
+
+
+
+
 </summary><p></p>
 
 
+you can style this div to be anywhere or anysize you like
 
 
 
@@ -223,6 +219,21 @@ Your browser does not support iframes.
 </summary><p></p>
 
 ![img](/img/edit-form-item-save.png)
+
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 12.  Drag the  <i className="material-icons grey">drag_indicator</i> 'Drag' icon to Sort </h3>
+
+</summary><p></p>
+
+![img](/img/edit-form-item-sort.png)
 
 </details>
 <p></p>
