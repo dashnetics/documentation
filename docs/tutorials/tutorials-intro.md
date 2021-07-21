@@ -30,6 +30,14 @@ Adding actions to the button to collect data from your users. (Actions can also 
 [<i className="material-icons-h2">videocam</i> Viewing Data ](/vids/Dashnetics-submittedforms.mp4)
 Viewing and exporting the submitted forms. 
 
+## Styling Tutorials
+---
+[<i className="material-icons-h2">videocam</i> Adding a Font ](/vids/Dashnetics-addfont.mp4)
+Adding custom fonts to your site to match your Marketing Message. 
+
+[<i className="material-icons-h2">videocam</i> Adding an i-Frame ](/vids/Dashnetics-addiframe.mp4)
+Adding an i-Frame to a page in order to display an external site or page from within your dashnetics page. 
+
 ## Advanced Tutorials
 ---
 

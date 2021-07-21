@@ -2,16 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\docs",
-    "\\docs\\manuals\\advanced",
-    "\\docs\\manuals\\advanced\\functions",
     "\\docs\\manuals\\beginner",
+    "\\docs\\manuals\\styling",
     "\\docs\\tutorials",
-    "\\src",
     "\\src\\components",
     "\\src\\css",
     "\\src\\pages",
-    "\\static"
+    "\\static\\img",
+    "\\static\\vids"
   ],
-  "SelectedNode": "\\docusaurus.config.js",
+  "SelectedNode": "\\docs\\tutorials\\tutorials-intro.md",
   "PreviewInSolutionExplorer": false
 }
