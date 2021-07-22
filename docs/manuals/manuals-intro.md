@@ -10,4 +10,6 @@ Here you will discover
 
 ## [Advanced User Manuals](/docs/manuals/advanced/advanced-intro)
 
+## [Styling Manuals](/docs/manuals/styling/styling-intro)
+
 ## [Developer Manuals](/docs/manuals/developer/developer-intro)

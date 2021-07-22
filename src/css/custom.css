@@ -1,16 +1,22 @@
-
+summary {
+    line-height: 1.8em;
+}
+summary {
+    line-height: 1.8em;
+}
 .DocSearch-Logo {
     display: none;
 }
-
 .color {
     color: var(--ifm-color-primary);
 }
 
 .red {
-    color: red;
+    color: #ff0000;
 }
-
+.blue {
+    color: #0000ff;
+}
 .grey {
     color: grey;
 }
@@ -130,10 +136,10 @@
 .droplisttext {
     /* border: 0.5px solid rgba(102, 102, 102, 0.6);*/
     /*  border-radius: 6px;*/
-    box-shadow: 5px 5px rgba(102, 102, 102, 1);
-    padding: 4px 22px 4px 22px;
-    margin-right: 1em;
-    color: rgba(160, 160, 160, 1);
+    box-shadow: 3px 3px rgba(122, 122, 122, 1);
+    padding: 4px 22px 2px 22px;
+    margin: 0.1em 1em 1em 1em;
+    color: rgba(142, 142, 142, 1);
 }
 
     .droplisttext::after {
@@ -340,3 +346,15 @@ h1 {
         text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #0fa, 0 0 45px #0fa, 0 0 55px #0fa, 0 0 70px #0fa, 0 0 80px #0fa;
     }
 }
+a {
+    color: var(--ifm-link-color);
+    text-decoration: var(--ifm-color-secondary:);
+    transition: color var(--ifm-transition-slow) var(--ifm-transition-timing-default);
+}
+    a:hover {
+        background-color: var(--ifm-color-primary-darkest);
+        color: var(--ifm-color-primary-lightest);
+        transition-property: font-size;
+        transition-property: color;
+        transition-duration: var(--ifm-transition-slow);
+    }
