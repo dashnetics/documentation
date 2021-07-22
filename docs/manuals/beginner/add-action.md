@@ -24,7 +24,7 @@ More information on Actions can be found [here](../../manuals/advanced/functions
 
 </summary><p></p>
 
-To access your admin site, simply type <h3 style={{ display: 'inline'}}>"admin."</h3> before your public url. 
+To access your admin site, simply type **"admin."** before your public url. 
 
 eg: https://admin.demo.dashnetics.com.au
 
@@ -39,7 +39,7 @@ eg: https://admin.demo.dashnetics.com.au
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 2.  Select <span class="buttontext"> <i className="material-icons">menu</i></span>  </h3>
+<h3 style={{ display: 'inline'}}> 2.  Select <span className="buttontext"> <i className="material-icons">menu</i></span>  </h3>
 
 </summary><p></p>
 
@@ -54,7 +54,7 @@ eg: https://admin.demo.dashnetics.com.au
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 3.  Select  <span class="buttontext"> Page Management </span> </h3>
+<h3 style={{ display: 'inline'}}> 3.  Select  <span className="buttontext"> Page Management </span> </h3>
 
 </summary><p></p>
 
@@ -69,7 +69,7 @@ eg: https://admin.demo.dashnetics.com.au
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 4.  Select <span class="buttontext"> Setup Pages </span> </h3>
+<h3 style={{ display: 'inline'}}> 4.  Select <span className="buttontext"> Setup Pages </span> </h3>
 
 </summary><p></p>
 
@@ -101,7 +101,7 @@ Each page will be listed, choose the "Actions" Icon next to the page you want to
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 6.  Select <span class="buttontext"> Add </span> </h3>
+<h3 style={{ display: 'inline'}}> 6.  Select <span className="buttontext"> Add </span> </h3>
 
 </summary><p></p>
 
@@ -118,7 +118,7 @@ To begin adding a new Item to the page
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 7.   In the <span class="droplisttext"> Form Action</span>  dropdown, choose "Submit Form"</h3> 
+<h3 style={{ display: 'inline'}}> 7.   In the <span className="droplisttext"> Form Action</span>  dropdown, choose "Submit Form"</h3> 
 
 </summary><p></p>
 
@@ -171,7 +171,7 @@ Each button for the page will be listed, choose the Button you want the action t
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 13.  Press <span class="buttontext"> Save </span> </h3>
+<h3 style={{ display: 'inline'}}> 13.  Press <span className="buttontext"> Save </span> </h3>
 
 </summary><p></p>
 

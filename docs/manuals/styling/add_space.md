@@ -23,7 +23,7 @@ On this page, you will learn how to add a space to your page, to customise the l
 
 </summary><p></p>
 
-To access your admin site, simply type <h3 style={{ display: 'inline'}}>"admin."</h3> before your public url. 
+To access your admin site, simply type **"admin."** before your public url. 
 
 eg: https://admin.demo.dashnetics.com.au
 
@@ -38,7 +38,7 @@ eg: https://admin.demo.dashnetics.com.au
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 2.  Select the <span class="buttontext"> <i className="material-icons">menu</i></span>  </h3>
+<h3 style={{ display: 'inline'}}> 2.  Select the <span className="buttontext"> <i className="material-icons">menu</i></span>  </h3>
 
 </summary><p></p>
 
@@ -53,7 +53,7 @@ eg: https://admin.demo.dashnetics.com.au
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 3.  Select  <span class="buttontext"> Page Management </span> </h3>
+<h3 style={{ display: 'inline'}}> 3.  Select  <span className="buttontext"> Page Management </span> </h3>
 
 </summary><p></p>
 
@@ -68,7 +68,7 @@ eg: https://admin.demo.dashnetics.com.au
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 4.  Select <span class="buttontext"> Setup Pages </span> </h3>
+<h3 style={{ display: 'inline'}}> 4.  Select <span className="buttontext"> Setup Pages </span> </h3>
 
 </summary><p></p>
 
@@ -84,7 +84,7 @@ eg: https://admin.demo.dashnetics.com.au
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 5.  Select Items Icon <span class="buttontext"> <i className="material-icons">list_alt</i></span> </h3>
+<h3 style={{ display: 'inline'}}> 5.  Select Items Icon <span className="buttontext"> <i className="material-icons">list_alt</i></span> </h3>
 
 </summary><p></p>
 
@@ -100,7 +100,7 @@ Each page will be listed, choose the "Items" Icon next to the page you want to c
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 6.  Select <span class="buttontext"> Add </span> </h3>
+<h3 style={{ display: 'inline'}}> 6.  Select <span className="buttontext"> Add </span> </h3>
 
 </summary><p></p>
 
@@ -136,7 +136,7 @@ Names can contain spaces or any characters
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 8.   In the <span class="droplisttext"> Type</span>  dropdown, choose "HTML Text Area"</h3> 
+<h3 style={{ display: 'inline'}}> 8.   In the <span className="droplisttext"> Type</span>  dropdown, choose "HTML Text Area"</h3> 
 
 </summary><p></p>
 
@@ -214,7 +214,7 @@ you can style this div to be anywhere or anysize you like
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 12.  Press <span class="buttontext"> Save </span> </h3>
+<h3 style={{ display: 'inline'}}> 12.  Press <span className="buttontext"> Save </span> </h3>
 
 </summary><p></p>
 

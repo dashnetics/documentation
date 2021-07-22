@@ -1,8 +1,8 @@
 ---
 sidebar_position: 01.03
 id: addCSS
-title: Add CSS code along with HTML
-sidebar_label: Adding CSS
+title: Add CSS to a Page
+sidebar_label: Add CSS to a Page
 ---
 
 CSS styles can be applied to HTML Text Areas with some easy steps. 
