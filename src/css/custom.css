@@ -153,9 +153,14 @@ h1 {
     font-size: var(--ifm-h1-font-size);
     display: inline-block;
     position: relative;
-    padding-right: 1.38em
+    padding-right: 1.4em
 }
-
+.end {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    width: 1.4em
+}
 .material-icons-h1 {
     float: right;
     display: inline;

@@ -10,7 +10,8 @@ Classes can be applied to an element by adding them into the element HTML Text A
 
 Classes can also be defined in a Custom CSS Page and then called from the element, as long as the page is linked to the custom css page.
 
-## To Add a Custom Class to your Site
+## To Add a Custom Class to your Dashnetics Site
+
 * * *
 
 Prerequisite knowledge:- [How to add a Custom CSS Page](add_customcsspage)
