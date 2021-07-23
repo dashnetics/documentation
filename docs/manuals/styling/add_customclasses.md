@@ -14,7 +14,7 @@ Classes can also be defined in a Custom CSS Page and then called from the elemen
 ## To Add a Custom Class to your Site
 * * *
 
-Prerequisite knowledge: [How to add a Custom CSS Page](add_customcsspage)
+> Prerequisites: [a Custom CSS Page](add_customcsspage)
 
 
 <details>

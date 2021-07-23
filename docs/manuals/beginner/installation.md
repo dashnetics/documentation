@@ -21,5 +21,5 @@ You will have to set a user and password to sign in to your admin for the first 
 
 Once you have signed in, you can access the admin function directly from this link.
 
-Once you choose a default landing page for your site, the original address will point directly to this page. e.g. https://demo.dashnetics.com.au/testpage1
+Once you choose a default landing page for your site, the original address will point directly to this page. e.g. https://demo.dashnetics.com.au/home
 
