@@ -241,6 +241,7 @@ h1 {
     color: var(--ifm-color-primary);
 }
 .footer--dark {
+    display:none;
     --ifm-footer-background-color: #111111;
     --ifm-footer-color: var(--ifm-footer-link-color);
     --ifm-footer-link-color: var(--ifm-color-secondary);
@@ -366,7 +367,7 @@ a {
         font-size: 1.1em;
         font-weight: 600;
         box-shadow: 1px 1px var(--ifm-color-primary-light), 2px 2px var(--ifm-color-primary-lighter), 3px 3px var(--ifm-color-primary-lightest);
- -webkit-transform: translateX(-3px);
+        -webkit-transform: translateX(-3px);
         transform: translateX(-3px);
         padding: 6px 6px 6px 6px;
     }
