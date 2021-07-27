@@ -90,7 +90,7 @@ module.exports = {
         },
   algolia: {
       apiKey: 'b9acb6319c06b2971a85439a0f8c2322',
-      indexName: 'docs',
+      indexName: 'dashnetics-documentation',
           // Optional: see doc section below
           contextualSearch: false,
 
