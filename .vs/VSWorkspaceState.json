@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\docs",
-    "\\docs\\tutorials"
+    "\\docs\\manuals",
+    "\\docs\\manuals\\advanced",
+    "\\src\\css",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\docs\\tutorials\\tutorials-intro.md",
   "PreviewInSolutionExplorer": false
 }
