@@ -366,7 +366,7 @@ a {
         transition-duration: var(--ifm-transition-slow);
     /*    font-size: 1.0em;
         font-weight: 600;*/
-        box-shadow: 1px 1px var(--ifm-color-primary-light), 2px 2px var(--ifm-color-primary-lighter), 3px 3px var(--ifm-color-primary-lightest);
+        box-shadow: 1px 0px var(--ifm-color-primary-light), 2px 0px var(--ifm-color-primary-lighter), 3px 0px var(--ifm-color-primary-lightest);
         -webkit-transform: translateX(-0px);
         transform: translateX(-0px);
       /*  padding: 6px 6px 6px 6px;*/
