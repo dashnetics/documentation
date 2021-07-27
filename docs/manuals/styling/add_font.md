@@ -12,7 +12,7 @@ Fonts can be applied to Pages by adding them as an HTML Text Area.
 ## To Add a Font-Family to your Page
 * * *
 
-Let's start by adding an Iframe to our page.
+Let's add a Font to our Site.
 
 
 <details>

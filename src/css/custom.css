@@ -5,7 +5,7 @@ summary {
     line-height: 1.8em;
 }
 .DocSearch-Logo {
-    display: none;
+    display: inline-flex;
 }
 .color {
     color: var(--ifm-color-primary);
@@ -73,7 +73,17 @@ summary {
     -webkit-font-smoothing: antialiased;
     display: inline !important;
 }
+.material-icons-h1-inline {
+    font-size: 60px !important;
+   
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+   
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
 
+}
 .material-icons-h2 {
     font-size: 36px !important;
     vertical-align: middle;
@@ -366,7 +376,7 @@ a {
         transition-duration: var(--ifm-transition-slow);
     /*    font-size: 1.0em;
         font-weight: 600;*/
-        box-shadow: 1px 0px var(--ifm-color-primary-light), 2px 0px var(--ifm-color-primary-lighter), 3px 0px var(--ifm-color-primary-lightest);
+        box-shadow: 0px 1px var(--ifm-color-primary-light), 0px 2px var(--ifm-color-primary-lighter), 0px 3px var(--ifm-color-primary-lightest);
         -webkit-transform: translateX(-0px);
         transform: translateX(-0px);
       /*  padding: 6px 6px 6px 6px;*/
