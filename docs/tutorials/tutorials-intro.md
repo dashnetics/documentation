@@ -18,7 +18,7 @@ Here you will discover **Getting Started Tutorials**, **Advanced Tutorials** and
 
 [<i className="material-icons-h2">videocam</i> Adding an Input ](/vids/Dashnetics-addinputs.mp4)  &nbsp; Adding inputs to collect data from your users. (eg Name, Address, Phone No)
 
-[<i className="material-icons-h2">videocam</i> Adding an Input ](/vids/Dashnetics-AddLookup.mp4)  &nbsp; Adding a lookup field where your users can select items from the database. (eg Company, Contacts)
+[<i className="material-icons-h2">videocam</i> Adding a Lookup Field ](/vids/Dashnetics-AddLookup.mp4)  &nbsp; Adding a lookup field where your users can select items from the database. (eg Company, Contacts)
 
 [<i className="material-icons-h2">videocam</i> Adding a Button ](/vids/Dashnetics-addbutton.mp4)  &nbsp; Adding buttons to capture the data your users enter.
 
