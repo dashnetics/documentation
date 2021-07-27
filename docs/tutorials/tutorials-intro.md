@@ -22,6 +22,10 @@ Here you will discover **Getting Started Tutorials**, **Advanced Tutorials** and
 
 [<i className="material-icons-h2">videocam</i> Adding an Action ](/vids/Dashnetics-addaction.mp4)  &nbsp; Adding actions to the button to collect data from your users. (Actions can also navigate, email etc) 
 
+[<i className="material-icons-h2">videocam</i> Import Companies ](/vids/Dashnetics-Import-Companies.mp4)  &nbsp; Watch how to easily import Companies into Dashnetics.
+
+[<i className="material-icons-h2">videocam</i> Import Contacts ](/vids/Dashnetics-Import-Contacts.mp4)  &nbsp; Watch how to quickly import Contacts into Dashnetics.
+
 [<i className="material-icons-h2">videocam</i> Viewing Data ](/vids/Dashnetics-submittedforms.mp4)  &nbsp; Viewing and exporting the submitted forms. 
 
 ## Styling Tutorials
