@@ -54,6 +54,20 @@ module.exports = {
             style: 'dark',
             copyright: `Copyright © ${new Date().getFullYear()} Dashnetics.`,
         },
+  algolia: {
+      apiKey: 'b9acb6319c06b2971a85439a0f8c2322',
+      indexName: 'docs',
+          // Optional: see doc section below
+          contextualSearch: false,
+
+          // Optional: see doc section below
+          appId: 'UBF3GVI7EP',
+          
+          // Optional: Algolia search parameters
+          searchParameters: {},
+
+          //... other Algolia params
+  },
     },
     stylesheets: [
         "https://fonts.googleapis.com/icon?family=Material+Icons",
