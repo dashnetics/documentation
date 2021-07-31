@@ -391,7 +391,7 @@ html[data-theme='light'] .DocSearch {
     --docsearch-container-background: rgba(94, 100, 112, 0.7);
     /* Modal */
     --docsearch-modal-background: var(--ifm-color-secondary-lighter);
-    /* Search box dc*/
+    /* Search box */
     --docsearch-searchbox-background: var(--ifm-color-secondary);
     --docsearch-searchbox-focus-background: var(--ifm-color-white);
     /* Hit */
@@ -425,10 +425,12 @@ html[data-theme='dark'] .DocSearch {
     visibility: hidden;
     width: 0px;
 }
+
 .DocSearch-Button-Keys {
     visibility: hidden;
     width: 0px;
 }
+
 .DocSearch-Button-Container {
     width: 100%;
 }
