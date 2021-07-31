@@ -430,7 +430,6 @@ html[data-theme='dark'] .DocSearch {
     width: 0px;
 }
 .DocSearch-Button-Container {
-    visibility: hidden;
     width: 100%;
 }
 .DocSearch-Button {
