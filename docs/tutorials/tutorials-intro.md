@@ -12,7 +12,7 @@ Here you will discover **Getting Started Tutorials**, **Advanced Tutorials** and
 
 ## Beginner Tutorials
 ---
-[<i className="material-icons-h2">videocam</i> First Tutorial - Adding your First Page ](/vids/Dashnetics-addpage.mp4) &nbsp; Follow along and add your first page to your web app here.
+[<i className="material-icons-h2">videocam</i> First Tutorial - Adding your First Page ](/vids/Dashnetics-addapage.mp4) &nbsp; Follow along and add your first page to your web app here.
 
 [<i className="material-icons-h2">videocam</i> Adding a Heading ](/vids/Dashnetics-addheader.mp4)  &nbsp; Adding headers to pages and forms
 
