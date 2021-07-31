@@ -432,7 +432,4 @@ html[data-theme='dark'] .DocSearch {
 .DocSearch-Button-Container {
     width: 100%;
 }
-.DocSearch-Button {
-    background-color: #fff;
-}
 /* Algolia Search above */
