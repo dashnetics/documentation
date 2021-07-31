@@ -393,7 +393,7 @@ html[data-theme='light'] .DocSearch {
     --docsearch-modal-background: var(--ifm-color-secondary-lighter);
     /* Search box */
     --docsearch-searchbox-background: var(--ifm-color-white);
-    --docsearch-searchbox-focus-background: var(--ifm-color-black);
+    --docsearch-searchbox-focus-background: var(--ifm-color-white);
     /* Hit */
     --docsearch-hit-color: var(--ifm-font-color-base);
     --docsearch-hit-active-color: var(--ifm-color-white);
