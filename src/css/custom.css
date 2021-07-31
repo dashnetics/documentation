@@ -422,9 +422,18 @@ html[data-theme='dark'] .DocSearch {
 }
 /* SearchButton */
 .DocSearch-Button-Key {
-    visibility: hidden
+    visibility: hidden;
+    width: 0px;
 }
 .DocSearch-Button-Keys {
-    visibility: hidden
+    visibility: hidden;
+    width: 0px;
+}
+.DocSearch-Button-Container {
+    visibility: hidden;
+    width: 100%;
+}
+.DocSearch-Button {
+    background-color: #fff;
 }
 /* Algolia Search above */
