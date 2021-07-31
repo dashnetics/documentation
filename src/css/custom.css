@@ -385,8 +385,8 @@ a {
 
     /* ALGOLIA SEARCH BELOW */
 html[data-theme='light'] .DocSearch {
-    /* --docsearch-primary-color: var(--ifm-color-primary); */
-    /* --docsearch-text-color: var(--ifm-font-color-base); */
+     --docsearch-primary-color: var(--ifm-color-primary); 
+     --docsearch-text-color: var(--ifm-font-color-base); 
     --docsearch-muted-color: var(--ifm-color-secondary-darkest);
     --docsearch-container-background: rgba(94, 100, 112, 0.7);
     /* Modal */
@@ -400,6 +400,7 @@ html[data-theme='light'] .DocSearch {
     --docsearch-hit-background: var(--ifm-color-white);
     /* Footer */
     --docsearch-footer-background: var(--ifm-color-white);
+  
 }
 
 html[data-theme='dark'] .DocSearch {
@@ -418,5 +419,12 @@ html[data-theme='dark'] .DocSearch {
     /* Footer */
     --docsearch-footer-background: var(--ifm-background-surface-color);
     --docsearch-key-gradient: linear-gradient( -26.5deg, var(--ifm-color-emphasis-200) 0%, var(--ifm-color-emphasis-100) 100% );
+}
+/* SearchButton */
+.DocSearch-Button-Key {
+    visibility: hidden
+}
+.DocSearch-Button-Keys {
+    visibility: hidden
 }
 /* Algolia Search above */
