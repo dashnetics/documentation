@@ -9,11 +9,6 @@ description: Introducing Tutorials
 
 Here you will discover **Getting Started Tutorials**, **Advanced Tutorials** and ** Developer Tutorials**.
 
-
-<video width="180px" autoplay loop muted playsinline>
-  <source src="/vids/Dashnetics-Intro.mp4" type="video/mp4">
-</video>
-
 ## Beginner Tutorials
 ---
 [<i className="material-icons-h2">videocam</i> First Tutorial - Adding your First Page ](/vids/Dashnetics-addapage.mp4) &nbsp; Follow along and add your first page to your web app here.
