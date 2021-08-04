@@ -3,15 +3,14 @@
     "",
     "\\docs",
     "\\docs\\manuals",
-    "\\docs\\manuals\\advanced",
-    "\\docs\\manuals\\advanced\\functions",
-    "\\docs\\manuals\\beginner",
     "\\docs\\manuals\\developer",
     "\\docs\\manuals\\styling",
     "\\docs\\tutorials",
     "\\src",
-    "\\src\\pages"
+    "\\src\\pages",
+    "\\static",
+    "\\static\\vids"
   ],
-  "SelectedNode": "\\docs\\faq.mdx",
+  "SelectedNode": "\\docs\\manuals\\styling\\add_customclasses.md",
   "PreviewInSolutionExplorer": false
 }

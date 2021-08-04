@@ -9,10 +9,57 @@ description: Introducing Tutorials
 
 Here you will discover **Getting Started Tutorials**, **Advanced Tutorials** and ** Developer Tutorials**.
 
-
 ## Beginner Tutorials
 ---
 [<i className="material-icons-h2">videocam</i> First Tutorial - Adding your First Page ](/vids/Dashnetics-addapage.mp4) &nbsp; Follow along and add your first page to your web app here.
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> Adding your First Page </h3>
+
+</summary><p></p>
+
+<video width="99%" height="540" autoplay loop muted markdown="1" src="/vids/Dashnetics-Intro.mp4" type="video/mp4" markdown="1">
+</video>
+
+Welcome to the first video in the Dashnetics Video Tutorial Series.
+
+For the best experience, we recommend you follow along with these Tutorials 
+
+as you work on your own dashnetics server, pausing the video whenever you need to.
+
+In this first video we will unbox a blank Dashnetics Application and add our first page.
+
+After receiving a link and login details from your dashnetics team
+
+The first thing to note is that Dashnetics is made up of two sites,  
+
+your public facing site which will start out blank
+
+and a password protected administration site which you will use to build your front facing site.
+
+the difference between the two is an admin dot at the front of the admin site.
+
+Once we've logged in to the admin site we can begin building our web application, 
+
+Lets create our first page. 
+
+The first option under the menu  is "Page Settings"
+
+The button under Page Settings is "Add"
+
+Lets give it a name e.g. "Home Page" and a URI e.g. "home"
+
+Its our only page, so let's tick the "default" option which will make it our users' landing page.
+
+Once we save, we can refresh our public facing site and see it has redirected us to our first page, which is blank.
+
+
+</details>
+<p></p>
+
 
 [<i className="material-icons-h2">videocam</i> Adding a Heading ](/vids/Dashnetics-addheader.mp4)  &nbsp; Adding headers to pages and forms
 
