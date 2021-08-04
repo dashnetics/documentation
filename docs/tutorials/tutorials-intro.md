@@ -21,8 +21,7 @@ Here you will discover **Getting Started Tutorials**, **Advanced Tutorials** and
 
 </summary><p></p>
 
-<video width="99%" height="540" autoplay loop muted markdown="1">
-<source src="/vids/Dashnetics-Intro.mp4" type="video/mp4" markdown="1" >
+<video width="99%" height="540" autoplay loop muted markdown="1" src="/vids/Dashnetics-Intro.mp4" type="video/mp4" markdown="1">
 </video>
 
 Welcome to the first video in the Dashnetics Video Tutorial Series.
