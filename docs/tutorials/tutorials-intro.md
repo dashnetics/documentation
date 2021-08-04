@@ -9,8 +9,10 @@ description: Introducing Tutorials
 
 Here you will discover **Getting Started Tutorials**, **Advanced Tutorials** and ** Developer Tutorials**.
 
-<video width="180" controls autoplay><source src="/vids/Dashnetics-Intro.mp4" type="video/mp4">
-</video> 
+
+<video width="180px" autoplay loop muted playsinline>
+  <source src="/vids/Dashnetics-Intro.mp4" type="video/mp4">
+</video>
 
 ## Beginner Tutorials
 ---
