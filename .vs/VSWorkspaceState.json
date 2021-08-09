@@ -3,14 +3,13 @@
     "",
     "\\docs",
     "\\docs\\manuals",
-    "\\docs\\manuals\\developer",
-    "\\docs\\manuals\\styling",
+    "\\docs\\manuals\\beginner",
     "\\docs\\tutorials",
     "\\src",
     "\\src\\pages",
     "\\static",
     "\\static\\vids"
   ],
-  "SelectedNode": "\\docs\\manuals\\styling\\add_customclasses.md",
+  "SelectedNode": "\\docs\\manuals\\beginner\\add-heading.md",
   "PreviewInSolutionExplorer": false
 }
