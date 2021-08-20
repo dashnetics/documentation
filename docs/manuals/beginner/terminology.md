@@ -13,7 +13,7 @@ sidebar_label: Terminology
 
 ## URI
 Stands for Uniform Resource Identifier, when setting up Pages it has the same function as a URL (Uniform Resource Locator), it is the link to your webpage 
-eg. a Page with URI Test will be accessed by https://yoursite.cx.4d.net.au/Test
+eg. a Page on site "demo" with URI "Home" will be accessed by https://demo.dashnetics.com.au/Home
 
 
 <details id='URI'>
@@ -74,7 +74,7 @@ are not allowed to be placed directly within URLs.
 </details> 
 
 ## WYSIWYG
-WYSIWYG stands for “what you see is what you get”. 
+WYSIWYG stands for "what you see is what you get". 
 With a WYSIWYG editor, how your design and content appears on the editing platform is exactly what it will look like in the final version.
 
 ## loop over

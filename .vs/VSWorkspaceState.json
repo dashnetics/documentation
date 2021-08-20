@@ -3,13 +3,14 @@
     "",
     "\\docs",
     "\\docs\\manuals",
+    "\\docs\\manuals\\advanced",
+    "\\docs\\manuals\\advanced\\cybersecurity",
+    "\\docs\\manuals\\advanced\\functions",
     "\\docs\\manuals\\beginner",
-    "\\docs\\tutorials",
-    "\\src",
-    "\\src\\pages",
-    "\\static",
-    "\\static\\vids"
+    "\\docs\\manuals\\developer",
+    "\\docs\\manuals\\styling",
+    "\\docs\\tutorials"
   ],
-  "SelectedNode": "\\docs\\manuals\\beginner\\add-heading.md",
+  "SelectedNode": "\\docs\\manuals\\beginner\\terminology.md",
   "PreviewInSolutionExplorer": false
 }
