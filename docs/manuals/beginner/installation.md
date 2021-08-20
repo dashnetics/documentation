@@ -7,7 +7,7 @@ sidebar_label: Installation
 
 
 # Installation
-
+[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-SigningIn.mp4)
 
 Dashnetics is a cloud-based product.
 

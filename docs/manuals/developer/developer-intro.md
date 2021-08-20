@@ -21,11 +21,11 @@ If you need Help, or can't find what you are looking for:
 
 Clicking <i className="material-icons">headset</i> opens an online meeting with video for a live walkthrough.
 
-Clicking <i className="material-icons">call</i> starts a phone call to a Business Software Design Tech Support Team Member.
+Clicking <i className="material-icons">call</i> starts a phone call to a Dashnetics Tech Support Team Member.
 
-Clicking <i className="material-icons">mail</i> emails the Business Software Design tech team.
+Clicking <i className="material-icons">mail</i> emails the Dashnetics tech team.
 
-Clicking <i className="material-icons">forum</i> opens a live chat with a Business Software Design Tech Support Team Member.
+Clicking <i className="material-icons">forum</i> opens a live chat with a Dashnetics Tech Support Team Member.
 
 ## Hours of operation
 
