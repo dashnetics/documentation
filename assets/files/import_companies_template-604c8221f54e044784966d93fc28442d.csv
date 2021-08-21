@@ -1,0 +1,4 @@
+ID,Company Name,Company Code,Main Contact Person,Main Contact Title,Address,City,Region,PostalCode,Country,Phone,www
+CATEGORY,Leave BLANK,codes,contacts,contacts,address,address,address,address,address,contacts,contacts
+101,Test Company 1,TC1,Testy Testerton,Senior Tester,1 Test Ln,Testertown,Testshire,1234,Australia,61412345678,https://dashnetics.com.au
+102,Test Company 2,TC2,Testina Test,Junior Tester,14 Test St,Testerfield,Testshire,1234,Australia,61400000000,https://dashnetics.com.au
