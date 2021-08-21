@@ -76,7 +76,7 @@ Please take a moment to consider adding this additional information
 
 <summary>
 
-<h3 style={{ display: 'inline'}}>Do you want to group Fields into Categories</h3>
+<h3 style={{ display: 'inline'}}>Do you want to group Fields into Categories? </h3>
 
 </summary><p></p>
 
