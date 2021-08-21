@@ -5,7 +5,7 @@ title: Beginner Introduction
 description: Beginner Introduction
 ---
 
-# About Beginner Manuals
+# Using these Manuals
 
 Here you will discover written manuals, to be partnered with our <h2><i className="material-icons-h2">videocam</i> [Beginner Tutorials](../../tutorials/tutorials-intro#beginner-tutorials)</h2>.
 

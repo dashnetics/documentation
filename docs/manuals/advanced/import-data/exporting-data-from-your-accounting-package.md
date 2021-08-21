@@ -75,13 +75,13 @@ Be sure to also:
       
     
 
-If you have data that you don't want to import (e.g. if you've used the address field to record notes about a client), please [contact Customer Service](tel: +61294999544).
+If you have data that you don't want to import (e.g. if you've used the address field to record notes about a client), please <a href="tel:+61294999544">call Customer Service</a>.
 
 * * *
 
 Looking for MYOB Essentials?
 
-MYOB Essentials does not allow exporting of contacts [refer here](https://help.myob.com/wiki/display/ea/Importing+and+exporting#expand-CanIexportfromMYOBEssentialstoExcel). Please [contact Customer Service](tel: +61294999544) for assistance.
+MYOB Essentials does not allow exporting of contacts [refer here](https://help.myob.com/wiki/display/ea/Importing+and+exporting#expand-CanIexportfromMYOBEssentialstoExcel). Please <a href="tel:+61294999544">call Customer Service</a> for assistance.
 
 ![](/img/imports.myob.wizard.png)
 
@@ -203,11 +203,8 @@ Select the Export icon next to the Print icon, then choose Export to Excel.
 
 If you need to export client and supplier data from another source, export your data as a .CSV or .XLS file from that application.
 
-Use our templates
 
-You can use [our templates](import-templates) to prepare your data for uploading via Dashnetics's [bulk import](bulk-data-import) tool.
-
-If your data is complex, use our [import templates](import-templates) and send it to us.  
+If your data is complex, feel free to [send it to us](mailto:help@dashnetics.com.au) .  
 
 We recommend that you only include active clients and suppliers. This will ensure users have current client and supplier information from the start.
 
@@ -215,141 +212,31 @@ We recommend that you only include active clients and suppliers. This will ensur
 
  What information do I need to export?
 
-The client and supplier fields listed below can be imported into Dashnetics.  
+ANY client and supplier fields you currently utilise can be imported into Dashnetics.  
 
-*   Any headings in your file do not have to match the field name we have in Dashnetics. (E.g. Your file may have 'given name' and Dashnetics has 'first name')  
+###   Add records using current fields
+
+Any headings in your file must match the field name you already have in Dashnetics so as not to add a new field. 
+
+E.g. Your file may have 'given name' and Dashnetics has 'first name', change the first csv heading (first row) to 'first name'  
     
-*   If a field you require is not shown, you can add [custom fields](custom-fields) in Dashnetics before starting your import.
+###   Add records AND new fields into Dashnetics
 
+Any headings in your file that do not match a field name you already have in Dashnetics will create a new field. 
+
+E.g. Your file may have 'given name' and Dashnetics has 'first name' 
+
+## Minimum Information you will need
   
+| Field      | Definition |
+| ----------- | ----------- |
+| ** Company ID** | If you don't already have one from an export, then number your csv records.  Making sure not to match your exisiting dashentics id numbers. This will be used for company records and to link contact records to a company |
+| ** Company Name**  | Name for the Company /Client / Supplier / or other group. \*This is a required field for Dashnetics Companies |
+| ** Contact ID** | If you don't already have one from an export, then number your csv records. Making sure not to match your exisiting dashentics id numbers |
+| ** Contact First Name** | First name of your contact person at that business. \*This is a required field for Dashnetics Contacts |
+| ** Contact Last Name** | Last name of your contact person at that business. \*This is a required field for Dashnetics Contacts |
 
-Field
 
-Definition
-
-**Client / Supplier Name**
-
-Company / Business name. \*This is a required field for Dashnetics Companies
-
-**Primary Contact First Name**
-
-First name of your contact person at that business. \*This is a required field for Dashnetics Contacts
-
-**Primary Contact Last Name**
-
-Last name of your contact person at that business. \*This is a required field for Dashnetics Contacts
-
-ABN
-
-Client's ABN
-
-Client Note
-
-A generic message which appears on the client card e.g. 'Ensure invoices are sent to accounts'
-
-Client Short Name
-
-Short name for client (max. 6 characters)
-
-Email
-
-Primary contact person's email address
-
-Fax
-
-Client's primary fax number
-
-Mobile Phone
-
-Primary contact person's mobile phone number
-
-Parent Client
-
-[Name of the Parent Client (if applicable) n.b. this client will be added as a Child Client](Parent-and-Child-Clients)
-
-Phone
-
-Primary contact person's phone number
-
-Terms Note
-
-Information relating to client's trading terms
-
-Transaction Terms
-
-[Transaction terms for this client as per Site Admin (e.g. 30 Days)](Transaction-Terms)
-
-Import values
-
-Check how Dashnetics formats this data by going to **Create > Client**. Check the 'Terms' drop-down menu to see the options available.
-
-Website
-
-Client's primary website
-
-City
-
-Client's location suburb
-
-Company Address
-
-Client's location street address (No. and street)
-
-Company Location Name
-
-Client's location name (e.g. Level 8 Building 1)
-
-Country
-
-Client's location country
-
-Postcode
-
-Client's location postcode
-
-State
-
-Client's location state
-
-GPS - Latitude
-
-GPS Coordinates - Latitude
-
-GPS - Longitude
-
-GPS Coordinates - Longitude
-
-Is Individual?
-
-A checkbox to specify if your client is an individual (e.g. domestic work for a home owner)
-
-Import values
-
-The Individual field can have the values '1', 'yes', 'y', 't', 'true', 'on', 'checked', 'filled', or 'individual'.
-
-Mailing Address
-
-Client's mailing street address (No. and street or PO Box)
-
-Mailing City
-
-Client's mailing suburb
-
-Mailing Country
-
-Client's mailing country
-
-Mailing Location Name
-
-Client's mailing location name (e.g. Level 8 Building 1)
-
-Mailing Postcode
-
-Client's mailing postcode
-
-Mailing State
-
-Client's mailing state
  
  
 </details> 
