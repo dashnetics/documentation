@@ -40,7 +40,7 @@ Dashnetics can store multiple locations (such as work sites or branches) for a s
 
 This information can be included in your export files; however, you must ensure the client or supplier is referenced against each location or contact.
 
-If you have any questions or require assistance with preparing your data, please [contact our Customer Service Team](tel: +61294999544)..
+If you have any questions or require assistance with preparing your data, please <a href="tel:+61294999544">contact Customer Service</a>..
 
 Upload your file
 ----------------
