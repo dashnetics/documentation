@@ -1,11 +1,11 @@
---- 
-sidebar position: 53 
-
 ---
-[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-Import-Companies.mp4)
-
+sidebar_position: 53
+id: importing-companies
+title: Importing Companies
+description: Importing Companies into Dashnetics
+---
 # Importing Companies 
-
+[<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-Import-Companies.mp4)
 
 Step 1 is to Export your data from your existing accounting package or program, 
 
