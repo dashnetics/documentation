@@ -21,7 +21,7 @@ All work is done online, anytime, from any device and is saved and backed up to 
 
 ## Getting There
 
-> Prerequisites: a "Set Password" email [click to have it resent](mailto:help@dashnetics.com.au?subject=send_user_setup_email)
+> Prerequisites: a "Set Password" email [click to have it resent](mailto:help@dashnetics.com.au?subject=send_user_setup_email&body= Hi, Can you please send me a link to set a user? Thanks)
 
 
 You should have received an email with a set password link.

@@ -19,12 +19,36 @@ Prepare your data
 Once you have exported a .CSV or tab deliminated file:
 
 1.  **Remove any duplicate or obsolete records**, and any blank columns or rows within the data.
+### Columns
 2.  Check that your data has the following **mandatory fields**, _each in its own column_:
     1.  **ID** _in column1 _
+    
+        - The first column of the file is the import identifier. 
+    
+        - This needs to be unique and is used to identify the company in later imports.
+
+        - Make sure ids you choose don't match an existing dashnetics id.
+    
     2.  **Company Name** _in column 2_
 
- 
-    You can create your own Field Categories in Dashnetics before importing your data.  **[Click Here to see how](/docs/manuals/advanced/add_field_category)**.
+### Rows
+1. The first row of the file is for headings, as it will be used to create the field titles.
+2. A row with the first column of 'CATEGORY' is the category row.
+    - this is usually the 2nd row, if any, but can be any row after the first, and 
+    - it does not have to exist in the import file
+    - the category row is used to group the company fields into categories
+    - under each Field Title (first row) , enter the category name this field should belong to, if any
+
+Take a look at the below example Template: _hover over the_ [**highlighted text**](a "like this") _to see the instructions_
+
+|[Company ID](a "Must be the 1st Column")	| [Company Name](a "Must be the 2nd Column")|	Company Code|	[Main Contact Person](a "you may wish to remove any contact fields as Contacts will be stored in Contacts, this is therefore duplicate data") |	[Main Contact Title](a "you may wish to remove any contact fields as Contacts will be stored in Contacts, this is therefore duplicate data") |	Address|	City|	Region|	PostalCode|	Country|	Phone|	www|
+|-------	|--------|	---------|	----------|	----------|	----------|	---------|	--------|	---------|	-------|	-------|	---------|
+|[CATEGORY](a "Must say CATEGORY as the first Column for the row to be read as Category Names")	|[Leave BLANK](a "Company Name cannot have a Category")|	[codes](a "This will create a new Field Category called "codes" and the "Company Code (1st row)" field will be under this category from now on")|	[contacts](a "This will create a new Field Category called 'contacts' and the 'Main Contact Person (1st row)' field will be under this category from now on")|	[contacts](a "This will place the 'Main Contact Title (1st row)' field under the already existing 'contacts' category from now on")|	address|	address|	address|	address|	address|	contacts|	contacts|
+|101|	Test Company 1|	TC1|	Testy Testerton|	Senior Tester|	1 Test Ln|	Testertown|	Testshire|	1234|	Australia|	61412345678 |	https://dashnetics.com.au |
+|102|	Test Company 2|	TC2|	Testina Test|	Junior Tester|	14 Test St|	Testerfield|	Testshire|	1234|	Australia|	61400000000 |	https://dashnetics.com.au |
+
+You can also download the above example to use or send as a template [**HERE !**](/files/import_companies_template.csv) 
+
     
 
 ### Things to consider prior to import ###
@@ -43,8 +67,32 @@ For example, you may have , or would like to have, data like 'Customer Type' (VI
 
 Please take a moment to consider adding this additional information
 
+
 </details>
 <p></p>
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}>Do you want to group Fields into Categories</h3>
+
+</summary><p></p>
+
+You can either:
+
+a) Import Field Categories by adding them as a row in your data.  **[Click Here to see how make vid now dom](/docs/manuals/advanced/add_field_category)**.
+    
+or
+
+b) Create your own Field Categories in Dashnetics before or after importing your data.  **[Click Here to see how](/docs/manuals/advanced/add_field_category)**.
+    
+
+
+</details>
+<p></p>
+
 
 
 <details>
@@ -60,6 +108,7 @@ You can have single or multiple contacts for a single client or supplier.
 Contacts are linked to Companies (Customers, Families, Suppliers etc) by an ID (your First Column in the Company csv file)
 
 It is a good idea to ensure you have this linked before import, particularly if you are splitting 1 exported "Customer" file into "Company" and "Contact" import files
+
 
 
 </details>
@@ -80,12 +129,14 @@ Contacts are linked to Companies (Customers, Families, Suppliers etc) by an ID
 
 Therefore, leaving a "Primary Contact" in your Company import is unnecessary duplication of your information.
 
+
+
 </details>
 <p></p>
 
 
 
-If you have any questions or require assistance with preparing your data, please [contact our Customer Service Team](tel: +61294999544).
+If you have any questions or require assistance with preparing your data, please <a href="tel:+61294999544">contact Customer Service</a>.
 
 Upload your file
 ----------------
@@ -101,6 +152,7 @@ Follow the steps below to upload your file to Dashnetics.
 </summary><p></p>
 
 ![img](/img/adminmenu-e1ef5a93a900bdfb54c72920a5ce4ea0.png)
+
 
 </details>
 <p></p>
