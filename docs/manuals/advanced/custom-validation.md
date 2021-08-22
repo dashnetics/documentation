@@ -34,15 +34,62 @@ To do this enter the text 'today' followed by a + or a -, then the number of yea
 The date relative to the current date will be used for validation.
 
 
-### Examples
+### Examples using todays date
 
-|Date Valdation| Formula|
+|Date Validation| Formula|
 |--- | --- |
+|in relation to "today"|today(+-)years&#124;months&#124;days|
 |Today|today|
 |18 years ago|today-18|
 |1 Year, 3 months in the Future|today+1&#124;3|
 |7 Days in the Past|today-0&#124;0&#124;7|
 
+:::tip <h3>For more information on adding the Validation into an Input see [Adding Inputs](/docs/manuals/beginner/add-input)  </h3>
+
+
+:::
+
+:::note <h3 className="white">   you can add multiple validations on the same input </h3>
+<p className="white">
+
+for instance with an input of "age" you may have a maximum AND minimum
+
+eg - to limit [age] input between 6 and 120
+
+| Select | Value | Text |
+| --- | --- | --- | 
+|Greater Than | 6 | Are you playing on Mum's Ipad again? |
+
+and
+
+| Select | Value | Text |
+| --- | --- | --- | 
+|Less Than|  120| Wow, you look great for your age!|
+
+</p>
+:::
+
+:::note <h3 className="white">   Using todays date to validate </h3>
+<p className="white">
+
+In the above example, instead of an input of "age" you may have a "Date of Birth" field
+
+eg - to limit [Date of Birth] to between 6 and 120
+
+| Select | Value | Text |
+| --- | --- | --- | 
+|Less Than | today-6 | Are you playing on Mum's Ipad again? |
+
+and
+
+| Select | Value | Text |
+| --- | --- | --- | 
+|Greater Than|  today-120| Wow, you look great for your age!|
+
+</p>
+:::
+
+![img](/img/add-input-validation.png)
 ---
 
 
