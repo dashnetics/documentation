@@ -259,7 +259,7 @@ for instance with first name and surname, don't tick 'Divide After' for first na
 :::note <h3 className="white">   you can add multiple validations on the same input </h3>
 <p className="white">
 
-for instance with age you may have a maximum AND minimum
+for instance with an input of "age" you may have a maximum AND minimum
 
 eg - to limit [age] input between 6 and 120
 
@@ -276,7 +276,25 @@ and
 </p>
 :::
 
+:::note <h3 className="white">  Using todays date to validate </h3>
+<p className="white">
 
+In the above example, instead of an input of "age" you may have a "Date of Birth" field
+
+eg - to limit [Date of Birth] to between 6 and 120
+
+| Select | Value | Text |
+| --- | --- | --- | 
+|Less Than | today-6 | Are you playing on Mum's Ipad again? |
+
+and
+
+| Select | Value | Text |
+| --- | --- | --- | 
+|Greater Than|  today-120| Wow, you look great for your age!|
+
+</p>
+:::
 
 ![img](/img/add-input-validation.png)
 
