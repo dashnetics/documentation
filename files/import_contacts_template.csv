@@ -1,0 +1,4 @@
+Contact ID,First Name,Last Name,Email,Company ID,Title,Street Address,City,Region,PostalCode,Country,Phone,www
+CATEGORY,,,,,details,address,address,address,address,address,,
+101,Testy,Testerton,Testy@dashnetics.com.au,1,Senior Tester,1 Test Ln,Testertown,Testshire,1234,Australia,61412345678,https://dashnetics.com.au 
+102,Testina,Test,Testina@dashnetics.com.au,1,Junior Tester,14 Test St,Testerfield,Testshire,1234,Australia,61400000000,https://dashnetics.com.au
