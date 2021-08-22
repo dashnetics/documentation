@@ -120,7 +120,7 @@ For example, *"test"*
 When creating a  URL do NOT include unsafe or special characters
 :::
 
-[Click Here for more information and Special Characters](terminology)
+[Click Here for more information and Special Characters](/docs/manuals/beginner/terminology)
 
 ![img](/img/edit-form_addurl.png)
 

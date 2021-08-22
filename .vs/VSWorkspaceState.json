@@ -4,13 +4,13 @@
     "\\docs",
     "\\docs\\manuals",
     "\\docs\\manuals\\advanced",
-    "\\docs\\manuals\\advanced\\cybersecurity",
-    "\\docs\\manuals\\advanced\\functions",
-    "\\docs\\manuals\\beginner",
-    "\\docs\\manuals\\developer",
+    "\\docs\\manuals\\advanced\\import-data",
     "\\docs\\manuals\\styling",
-    "\\docs\\tutorials"
+    "\\docs\\tutorials",
+    "\\src",
+    "\\src\\css",
+    "\\static"
   ],
-  "SelectedNode": "\\docs\\manuals\\beginner\\terminology.md",
+  "SelectedNode": "\\docs\\manuals\\beginner\\beginner-intro.md",
   "PreviewInSolutionExplorer": false
 }

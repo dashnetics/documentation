@@ -1,5 +1,5 @@
 ---
-id: formcontrols
+id: form-controls
 title: Form Controls
 sidebar_label: Form Controls
 sidebar_position: 35

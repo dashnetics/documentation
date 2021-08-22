@@ -9,6 +9,9 @@ description: Beginner Introduction
 
 Here you will discover written manuals, to be partnered with our <h2><i className="material-icons-h2">videocam</i> [Beginner Tutorials](../../tutorials/tutorials-intro#beginner-tutorials)</h2>.
 
+When you see a link to https://demo.dashnetics.com.au or https://admin.demo.dashnetics.com.au  
+
+replace ["demo"] with your dashnetics sitename.
 
 ## Getting Help
 

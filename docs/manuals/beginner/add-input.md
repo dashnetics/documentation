@@ -198,13 +198,18 @@ An input labelled "Street Name" is easier to follow than one names "ADD-St"
 
  Ticking this will make this input mandatory in order to submit the form.
 
-:::note  If you make the input "Required" or "Mandatory" 
+:::note <h2 className="white"> If you make the input "Required" or "Mandatory" </h2>
+<p className="white">
 
 - They will not be able to submit if they have not filled in a value.
-- It should therefore be something everybody has immediate access to, like their name or phone number
-- The field will show an * to inform the user it is mandatory
-- The input will turn red if not filled in to show the user has missed a mandatory item
 
+- It should therefore be something everybody has immediate access to, like their name or phone number
+
+- The field will show an * to inform the user it is mandatory
+
+- The input will turn <span className="red largertext"> red </span> if not filled in to show the user has missed a mandatory item
+
+</p>
 :::
 
 
@@ -236,13 +241,47 @@ for instance with first name and surname, don't tick 'Divide After' for first na
 </details>
 <p></p>
 
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 13. Select <span className="buttontext"> Validation if Required</span> </h3> 
+
+</summary><p></p>
+
+
+:::note <h2 className="white">   you can add multiple validations on the same input </h2>
+<p className="white">
+
+for instance with age you may have a maximum AND minimum
+
+eg - to limit [age] input between 6 and 120
+
+| Select | Value | Text |
+| --- | --- | --- | 
+|Greater Than | 6 | Are you playing on Mum's Ipad again? |
+
+and
+
+| Select | Value | Text |
+| --- | --- | --- | 
+|Less Than|  120| Wow, you look great for your age!|
+
+</p>
+:::
+
+![img](/img/add-input-validation.png)
+
+</details>
+<p></p>
+
 
 
 <details>
 
 <summary>
 
-<h3 style={{ display: 'inline'}}> 13.  Press <span className="buttontext"> Save </span> </h3>
+<h3 style={{ display: 'inline'}}> 14.  Press <span className="buttontext"> Save </span> </h3>
 
 </summary><p></p>
 

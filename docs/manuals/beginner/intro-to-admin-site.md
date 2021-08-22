@@ -21,10 +21,10 @@ All work is done online, anytime, from any device and is saved and backed up to 
 
 ## Getting There
 
-> Prerequisites: a "Set Password" email [click to have it resent](mailto:help@dashnetics.com.au?subject=send_user_setup_email&body= Hi, Can you please send me a link to set a user? Thanks)
+> Prerequisites: a "Set Password" email [click to have it resent](mailto:help@dashnetics.com.au?subject=send_user_setup_email)
 
 
-You should have received an email with a set password link.
+You should have received an email with a set password link. if not click above or <a href="tel:+61294999544"> <i className="material-icons">call</i> Call your Dashnetics Customer Care Team</a>
 
 This link will take you to your admin site where you can add yourself as a password protected administrative user.
 
@@ -33,15 +33,16 @@ Your Admin site address is the same as your public facing application address wi
 For Example:
 
 
-|Administrative Address | [https://admin.demo.dashnetics.com.au/](https://admin.demo.dashnetics.com.au/) |  
+|Administrative Application Address | [https://admin.demo.dashnetics.com.au/](https://admin.demo.dashnetics.com.au/) |  
 | ----------------------|-------------------------- |
-| Public Facing Application | [https://demo.dashnetics.com.au/](https://demo.dashnetics.com.au/) |
+|**Public Facing Application Address** | [ **https://demo.dashnetics.com.au/** ](https://demo.dashnetics.com.au/) |
 
+Replace ["demo"] with your dashnetics sitename.
 
 ## Getting Around
 
 
-:::tip  When Entering data use the TAB KEY
+:::tip  <h3 className="white inline"> When Entering data use the TAB KEY</h3>
 
 The Admin site is based upon entering data with the TAB Key, rather than the ENTER key.
 
