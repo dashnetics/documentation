@@ -11,8 +11,8 @@ description: Add a Heading
 
 Various elements can be added to any page. There are two types of elements:
 
-1.  [Items](/docs/features/formcontrols) - includes text, images, widgets, display areas as well as inputs and fields for data entry.
-2.  [Actions](/docs/features/formactions) - these help provide navigation, sending emails, saving data and more.
+1.  [Items](/docs/manuals/advanced/functions/form-controls) - includes text, images, widgets, display areas as well as inputs and fields for data entry.
+2.  [Actions](/docs/manuals/advanced/functions/form-actions) - these help provide navigation, sending emails, saving data and more.
 
 * * *
 

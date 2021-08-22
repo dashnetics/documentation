@@ -32,7 +32,9 @@ summary {
 .transparent {
     color: transparent;
 }
-
+.white {
+    color: white;
+}
 .texttop {
     vertical-align: text-top;
 }
@@ -41,6 +43,12 @@ summary {
     vertical-align: text-bottom;
 }
 
+.inline {
+    display: inline-flex;
+}
+.largertext {
+    font-size: 1.5em;
+}
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -55,6 +63,7 @@ summary {
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
+    color: var(--ifm-color-primary);
 }
 
 .material-icons-h1 {

@@ -11,7 +11,7 @@ Step 1 is to Export your data from your existing accounting package or program,
 
 If you haven't done that yet. [Click Here for help](exporting-data-from-your-accounting-package)
 
-After you have exported your contact data from your external software. The next step is:
+After you have exported your company data from your external software. The next step is:
 
 Prepare your data
 -----------------
@@ -31,6 +31,8 @@ Once you have exported a .CSV or tab deliminated file:
     
     2.  **Company Name** _in column 2_
 
+You can have as many columns/fields after the mandatory fields you need, so include any fields you may need in dashnetics
+
 ### Rows
 1. The first row of the file is for headings, as it will be used to create the field titles.
 2. A row with the first column of 'CATEGORY' is the category row.
@@ -38,6 +40,8 @@ Once you have exported a .CSV or tab deliminated file:
     - it does not have to exist in the import file
     - the category row is used to group the company fields into categories
     - under each Field Title (first row) , enter the category name this field should belong to, if any
+
+### Example
 
 Take a look at the below example Template: _hover over the_ [**highlighted text**](a "like this") _to see the instructions_
 
@@ -82,7 +86,7 @@ Please take a moment to consider adding this additional information
 
 You can either:
 
-a) Import Field Categories by adding them as a row in your data.  **[Click Here to see how make vid now dom](/docs/manuals/advanced/add_field_category)**.
+a) Import Field Categories by adding them as a row in your data.  **[See Example Above](### Example)**.
     
 or
 
@@ -136,7 +140,7 @@ Therefore, leaving a "Primary Contact" in your Company import is unnecessary dup
 
 
 
-If you have any questions or require assistance with preparing your data, please <a href="tel:+61294999544">contact Customer Service</a>.
+If you have any questions or require assistance with preparing your data, please <a href="tel:+61294999544"> <i className="material-icons">call</i> Call your Dashnetics Customer Care Team</a>.
 
 Upload your file
 ----------------

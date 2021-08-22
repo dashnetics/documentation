@@ -2,149 +2,340 @@
 sidebar position: 55 
 
 ---
+# Importing Contacts 
 [<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-Import-Contacts.mp4)
 
-# Importing Contacts 
-
+> Prerequisites: Companies [Click Here for help importing companies](importing-companies)
 
 Step 1 is to Export your data from your existing accounting package or program, 
 
-If you haven't done that yet. [Click Here](exporting-data-from-your-accounting-package)
+If you haven't done that yet. [Click Here for help](exporting-data-from-your-accounting-package)
 
 After you have exported your contact data from your external software. The next step is:
 
 Prepare your data
 -----------------
 
-Once you have exported a .CSV or .XLS file:
+Once you have exported a .CSV or tab deliminated file:
 
 1.  **Remove any duplicate or obsolete records**, and any blank columns or rows within the data.
+### Columns
 2.  Check that your data has the following **mandatory fields**, _each in its own column_:
-    1.  Client Name (this is a Company name)
-    2.  Primary Contact First Name
-    3.  Primary Contact Last Name
-3.  Review the format of any **Transaction Terms** in your file to make sure they match how Dashnetics describes them. For example, use '30 Days' not '30', 'thirty' or another format. You can check on how Dashnetics formats this data by going to **Create > Client**. Check the 'Terms' drop-down menu to see the options available.
+    1.  **ID** _in column1 _
     
-    You can create your own Transaction Terms in Dashnetics before importing your data. Just go to **Site Administration > Settings**, and search on **[Transaction Terms](/display/SiteAdmin/Transaction+Terms)**.
+        - The first column of the file is the import identifier. 
+    
+        - This needs to be unique and is used to identify the contact.
+
+        - Make sure ids you choose don't match an existing dashnetics id.
+    
+    2.  **First Name** _in column 2_
+
+    3.  **Last Name** _in column 3_
+
+    4.  **Email** _in column 4_
+
+    5.  **Company ID No** _in column 5_
+    
+        - Make Sure this matches the Dashnetics CompanyID in "Companies" you imported or added earlier.
+
+You can have as many columns/fields after the mandatory fields you need, so include any fields you may need in dashnetics
+
+### Rows
+1. The first row of the file is for headings, as it will be used to create the field titles.
+2. A row with the first column of 'CATEGORY' is the category row.
+    - this is usually the 2nd row, if any, but can be any row after the first, and 
+    - it does not have to exist in the import file
+    - the category row is used to group the company fields into categories
+    - under each Field Title (first row) , enter the category name this field should belong to, if any
+
+### Example
+
+Take a look at the below example Template: _hover over the_ [**highlighted text**](a "like this") _to see the instructions_
+
+|[Contact ID](a "Must be the 1st Column")	| [First Name](a "Must be the 2nd Column")	| [Last Name](a "Must be the 3rd Column")	| [Email](a "Must be the 4th Column")|	[Company ID](a "Must match an existing companyID in companies and be the 5th Column")| Title|	Street Address|	City|	Region|	PostalCode|	Country|	Phone|	www|
+|-------	|--------|	---------|	----------|	----------|	----------|	---------|	--------|	---------|	-------|	-------|	---------|	---------|
+|[CATEGORY](a "Must say CATEGORY as the first Column for the row to be read as Category Names")	|[Leave BLANK](a "First Name cannot have a Category")| [Leave BLANK](a "Last Name cannot have a Category")|[Leave BLANK](a "Email cannot have a Category")|[Leave BLANK](a "CompanyID cannot have a Category")|	[details](a "This will create a new Field Category called "details" and the "Title (1st row)" field will be under this category from now on")|	[address](a "This will create a new Field Category called 'address' and the 'Street Address (1st row)' field will be under this category from now on")|	[address](a "This will place the 'City (1st row)' field under the already existing 'address' category from now on")|	address|	address|	address|	|	|
+|101|	Testy| Testerton| Testy@dashnetics.com.au|	Senior Tester|	1 Test Ln|	Testertown|	Testshire|	1234|	Australia|	61412345678 |	https://dashnetics.com.au |
+|102|	Testina| Test|	Testina@dashnetics.com.au|	Junior Tester|	14 Test St|	Testerfield|	Testshire|	1234|	Australia|	61400000000 |	https://dashnetics.com.au |
+
+You can also download the above example to use or send as a template [**HERE !**](/files/import_contacts_template.csv) 
+
     
 
- Other things to consider
+### Things to consider prior to import ###
 
-### Will you need extra fields? (Custom Fields)
+<details>
 
-If you have data that doesn't fit into the [fields we provide](/display/office/Client+and+Supplier+Fields), you can add [custom fields](/display/SiteAdmin/Custom+Fields) in Dashnetics, before starting your import. For example, you may have data like 'Customer Type' (VIP/Gold/Silver) or an internal reference number. If required, please also consider this additional information
+<summary>
 
-### Do you have clients with multiple work sites or suppliers with multiple branches?
+<h3 style={{ display: 'inline'}}>Will you need extra fields? </h3>
 
-Dashnetics can store multiple locations (such as work sites or branches) for a single client or supplier. You can also have multiple contacts for a single client or supplier.
+</summary><p></p>
 
-This information can be included in your export files; however, you must ensure the client or supplier is referenced against each location or contact.
+If you have data that didn't export from your current system, but you would like to add in Dashnetics, now is a great time to do so, before starting your import. 
 
-If you have any questions or require assistance with preparing your data, please <a href="tel:+61294999544">contact Customer Service</a>..
+For example, you may have , or would like to have, data like 'Contact Type' (Parent/Child) or an internal reference number. 
+
+Please take a moment to consider adding this additional information
+
+
+</details>
+<p></p>
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}>Do you want to group Fields into Categories? </h3>
+
+</summary><p></p>
+
+You can either:
+
+a) Import Field Categories by adding them as a row in your data.  **[See Above](### Example)**.
+    
+or
+
+b) Create your own Field Categories in Dashnetics before or after importing your data.  **[Click Here to see how](/docs/manuals/advanced/add_field_category)**.
+    
+
+
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}>Have you linked your "contacts" with your Companies via a CompanyID before import? </h3>
+
+</summary><p></p>
+
+You can have single or multiple contacts for a single client or supplier.
+
+Contacts are linked to Companies (Customers, Families, Suppliers etc) by an ID (your First Column in the Company csv file)
+
+It is a good idea to ensure you have this linked before import
+
+
+
+</details>
+<p></p>
+
+
+
+If you have any questions or require assistance with preparing your data, please <a href="tel:+61294999544"> <i className="material-icons">call</i> Call your Dashnetics Customer Care Team</a>.
 
 Upload your file
 ----------------
 
 Follow the steps below to upload your file to Dashnetics.
 
-1. If you're uploading clients, navigate to **Manage** > **Clients**. If you're uploading suppliers, go to **Manage > Suppliers**.
+<details>
 
-2\. Click  ![](/img/download.png) **(Bulk Import)** at the top right.
+<summary>
 
-3\. In the Bulk Data Import Window , select a file to upload, or drag and drop a file onto the window. As soon as you've made your selection or dropped a file onto the window, the upload begins.
+<h3 style={{ display: 'inline'}}> 1.  Select the <span className="buttontext"> <i className="material-icons">menu</i></span>  </h3>
+
+</summary><p></p>
+
+![img](/img/adminmenu-e1ef5a93a900bdfb54c72920a5ce4ea0.png)
 
 
-Map the columns
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 2.  Select <span className="buttontext"> Contacts </span> </h3>
+
+</summary><p></p>
+
+
+![img](/img/menu_contacts.png)
+
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 3.  Select <span className="buttontext"> Import Contacts </span> </h3>
+
+</summary><p></p>
+
+
+![img](/img/menu_contacts_importcontacts.png)
+
+
+
+</details>
+<p></p>
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 4.  Select <span className="buttontext"> Upload </span> </h3>
+
+</summary><p></p>
+
+
+![img](/img/importcontacts_upload.png)
+
+
+
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 5.  Select <span className="buttontext"> Add Files </span> </h3>
+
+</summary><p></p>
+
+
+![img](/img/importcontacts_addfiles.png)
+
+
+
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 6.  Find your prepared csv or tab deliminated File </h3>
+
+</summary><p></p>
+
+
+
+
+
+
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 5.  Select <span className="buttontext"> Upload </span> </h3>
+
+</summary><p></p>
+
+
+![img](/img/importcontacts_upload2.png)
+
+
+
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 5.  Select <span className="buttontext"> Finish </span> </h3>
+
+</summary><p></p>
+
+
+![img](/img/importcontacts_finish.png)
+
+
+
+</details>
+<p></p>
+
+No Need to Map the columns! 
+
+Dashnetics requires only the bare minimum number of fields as above, you have complete autonomy to import as many or as few additional fields as you require.
+
+Dashnetics will create fields as per the first row of your import, so take a moment to ensure they suit, if you are importing for the second time, make sure you match your existing fields precisely.
+
+Capitalization is important!
+
 ---------------
-
-Next, you will need to match the columns in your file to the fields available in Dashnetics. On this window we can use an existing mapping template, or start a new template.
-
-If your file came from Xero or Quickbooks, you can use our preset mapping templates. Otherwise anyone can start a new template. Use the tabs below to learn more.
-
-
-
-*   [**...**](#13077870774c4080b0d7547af89ef42c3c2956ce0)
-*   [**![](/img/Integration_XERO_Round_24.png)Xero**](#XeroMapTab)
-*   [**![](/img/Integration_QB_Round_24.png)Quickbooks Online**](#QuickbooksMapTab)
-*   [...](#aui-tabs-responsive-dropdown-1)
-
-       ![](/img/selecttab.png) Select the application used to export your file.
-
-### Mapping data from Xero
-
-If your .CSV file came from Xero, click **Use Template** on the **Xero - Default Template**.
-
-To review the mapping between an existing mapping template and the file you've uploaded, click the  ![](/img/AddIcon.png)  (expand) icon. The pre-set mapping will display. You can change these if you need to by clicking **Use Template** and following the instructions in the 'Other Applications' tab.
-
-
-
-### Mapping data from QuickBooks Online
-
-If your .CSV file came from QuickBooks Online, click **Use Template** on the **Quickbooks - Default Template**.
-
-Please check the .CSV or .XLS file that was uploaded. QuickBooks is known to insert a blank column between each column that has data. If this has occurred please remove all the blank columns in your file and upload the file once more.
-
-To review the mapping between an existing mapping template and the file you've uploaded, click the ![](/img/AddIcon.png)  (expand) icon. The pre-set mapping will display. You can change these if you need to by clicking **Use Template** and following the instructions in the 'Other Applications' tab.
-
-
-
-### Mapping data using a new template
-
-Click **Start A New Template**.
-
-
-
-For each column, click the down arrow and select the Dashnetics field name that most closely matches the column found in your spreadsheet. In the example shown, we're telling Dashnetics that Column 4 contains the 'Postcode' and column 5 contains the 'Country'.
-
-Data appearing under the dark grey column headers will be imported.
-
-*   To switch a dark grey column header off, click the arrow beside the field and select **\-- not mapped --**. You can do this for any field other than the mandatory fields (marked with an asterisk).
-*   To switch a light grey column header on, click the arrow beside the field and select the most suitable mapping category.
-
-If you plan to upload the file format to another business unit, you can save the current mapping to use again. Tick the **Save this mapping as a template** box at the bottom of the window and enter a name for the template.
-
- Can't find a similar Dashnetics field?
-
-If you found columns in your file which don't match the [fields we provide](/display/office/Client+and+Supplier+Fields), you can always stop the process and add [custom fields](/display/SiteAdmin/Custom+Fields) in Dashnetics. See the previous section 'Prepare your data' to learn more.
-
-Notes about mapping custom fields
-
-*   If you're using custom fields but don't include them in your upload, or don't map the fields, the custom fields will still be added to your entries but with blank values.
-*   Column mapping for custom fields cannot be saved using the 'Save this mapping as a template' option. You can still save and use mapping templates but the custom fields will need to be mapped individually each time you use the bulk upload feature.
-
-
-
-*   [**Other applications**](#OtherMapTab)
-
-Import your data
-----------------
-
-Now that you've mapped your data, it's ready to be imported.
-
-1.  Click **Import**.
-    
-2.  Click **Yes** on the prompt, confirming you want to import the file. The import process begins and can take a few moments.
-    
-
-The import process cannot be undone once you've clicked Import. If you need to reverse your changes after a bulk import, please contact our Customer Service team for assistance. A charge for this service may be incurred.
-
-
 
 View import results
 -------------------
 
-Once your data has been imported, the results window appears.
+Once your data has been imported.
 
-Result
+Go to Companies to see the results
 
-Description
+<details>
 
-Inserted
+<summary>
 
-The number of new items inserted into Dashnetics
+<h3 style={{ display: 'inline'}}> 1.  Select the <span className="buttontext"> <i className="material-icons">menu</i></span>  </h3>
 
-Issues
+</summary><p></p>
 
-The number of items marked with an error and not imported. You can download a copy of the entries that contained an error. Refer to [Bulk Data Imports Troubleshooting](https://help.Dashnetics.com/x/JxYwBQ) for help with the most common types of issues.
+![img](/img/adminmenu-e1ef5a93a900bdfb54c72920a5ce4ea0.png)
 
-After closing the results window, you may need to refresh your browser to view the Imported data in Dashnetics.
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 2.  Select <span className="buttontext"> Contacts </span> </h3>
+
+</summary><p></p>
+
+
+![img](/img/menu_contacts.png)
+
+</details>
+<p></p>
+
+
+
+<details>
+
+<summary>
+
+<h3 style={{ display: 'inline'}}> 3.  Select <span className="buttontext"> Contacts </span> </h3>
+
+</summary><p></p>
+
+
+![img](/img/menu_contacts_contacts.png)
+
+
+
+</details>
+<p></p>
+
+
+
+Depending how many records you imported, you may need to wait a moment or refresh your browser to view the Imported data in Dashnetics.
