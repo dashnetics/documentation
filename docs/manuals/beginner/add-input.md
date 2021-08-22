@@ -250,7 +250,13 @@ for instance with first name and surname, don't tick 'Divide After' for first na
 </summary><p></p>
 
 
-:::note <h2 className="white">   you can add multiple validations on the same input </h2>
+:::tip <h3>For more information on Validation see [Custom Validation](/docs/manuals/advanced/custom-validation)  </h3>
+
+
+
+:::
+
+:::note <h3 className="white">   you can add multiple validations on the same input </h3>
 <p className="white">
 
 for instance with age you may have a maximum AND minimum
@@ -270,11 +276,14 @@ and
 </p>
 :::
 
+
+
 ![img](/img/add-input-validation.png)
 
 </details>
-<p></p>
 
+
+<p></p>
 
 
 <details>
