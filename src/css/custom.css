@@ -280,7 +280,9 @@ h1 {
     font-size:1.3em;
     font-weight:300;
 }
-
+.admonition a {
+    color: var(--ra-admonition-icon-color);
+}
 .admonition-icon {
     display: inline-block;
     margin-right: .2em
