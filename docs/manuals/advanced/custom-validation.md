@@ -24,6 +24,22 @@ They can be added or deleted via the input settings.
 |Maximum Length|	The length of the entered text must be less than or equal to the provided value|	text|	Select, Input, Mobile, Payment Amount Entry, Phone Number Entry, Text Area|
 |Matches (Regex)|	The value entered must match the provided regex	|text, number	|Select, Input, Mobile, Payment Amount Entry, Phone Number Entry, Text Area|
 
+:::note you can add multiple validations on the same input
+:::
+
+
+
+for instance with an input of "age" you may have a maximum AND minimum
+
+eg - to limit [age] input between 6 and 120
+
+| Select (as many as you like)| Value | Text |
+| :---: | :---: | :---: |
+|Greater Than| 6 |Are you playing on Mum's Ipad again?|
+| <span className="transparent"> -</span> Less Than <span className="transparent"> -</span>|120| <span className="transparent"> ---</span>Wow, you look great for your age!<span className="transparent"> ---</span>|
+
+
+
 
 ## Using Current Date in Validators
 
@@ -44,33 +60,14 @@ The date relative to the current date will be used for validation.
 |1 Year, 3 months in the Future|today+1&#124;3|
 |7 Days in the Past|today-0&#124;0&#124;7|
 
-:::tip <h3>For more information on adding the Validation into an Input see [Adding Inputs](/docs/manuals/beginner/add-input)  </h3>
-
+:::tip For more information on adding the Validation into an Input see [Adding Inputs](/docs/manuals/beginner/add-input)  
 
 :::
 
-:::note <h3 className="white">   you can add multiple validations on the same input </h3>
-<p className="white">
 
-for instance with an input of "age" you may have a maximum AND minimum
 
-eg - to limit [age] input between 6 and 120
+:::note   Using todays date to validate
 
-| Select | Value | Text |
-| --- | --- | --- | 
-|Greater Than | 6 | Are you playing on Mum's Ipad again? |
-
-and
-
-| Select | Value | Text |
-| --- | --- | --- | 
-|Less Than|  120| Wow, you look great for your age!|
-
-</p>
-:::
-
-:::note <h3 className="white">   Using todays date to validate </h3>
-<p className="white">
 
 In the above example, instead of an input of "age" you may have a "Date of Birth" field
 
@@ -79,17 +76,16 @@ eg - to limit [Date of Birth] to between 6 and 120
 | Select | Value | Text |
 | --- | --- | --- | 
 |Less Than | today-6 | Are you playing on Mum's Ipad again? |
-
-and
-
-| Select | Value | Text |
-| --- | --- | --- | 
 |Greater Than|  today-120| Wow, you look great for your age!|
 
-</p>
+
 :::
 
-![img](/img/add-input-validation.png)
+
+## <i className="material-icons color">image</i> Adding validation to an input
+
+![<i className="material-icons color">image</i> Adding validation to an input](/img/add-input-validation.png)
+
 ---
 
 
