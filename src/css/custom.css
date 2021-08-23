@@ -189,6 +189,8 @@ h1 {
 }
 
 :root {
+    --ifm-color-white: #fff;
+    --ifm-color-black: #000;
     /* --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -196,6 +198,12 @@ h1 {
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208); */
+    --ifm-dark-value: 10%;
+    --ifm-darker-value: 15%;
+    --ifm-darkest-value: 30%;
+    --ifm-light-value: 15%;
+    --ifm-lighter-value: 30%;
+    --ifm-lightest-value: 50%;
     --ifm-color-primary: #6dab51;
     --ifm-color-secondary: #2f6542;
     --ifm-color-primary-dark: #2f6542;
@@ -204,6 +212,12 @@ h1 {
     --ifm-color-primary-light: #12b623;
     --ifm-color-primary-lighter: #1cb82c;
     --ifm-color-primary-lightest: #20d632;
+    --ifm-color-secondary-dark: rgb(212, 213, 216);
+    --ifm-color-secondary-darker: rgb(200, 201, 204);
+    --ifm-color-secondary-darkest: rgb(164, 166, 168);
+    --ifm-color-secondary-light: rgb(238, 240, 242);
+    --ifm-color-secondary-lighter: rgb(241, 242, 245);
+    --ifm-color-secondary-lightest: rgb(245, 246, 248);
     --ifm-code-font-size: 95%;
     --ifm-navbar-background-color: var(--ifm-background-surface-color);
     --ifm-navbar-height: 3.75rem;
@@ -221,7 +235,83 @@ h1 {
     --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
     --ifm-navbar-sidebar-width: 80vw;
     --ifm-heading-color: var(--ifm-color-emphasis-800);
+    --ifm-table-head-background: rgba(217, 242, 217, 0.6);
+    --ifm-table-head-color: var(--ifm-color-primary-dark);
+    --ifm-table-row-background: rgba(217, 242, 217, 0.3);
+    --ifm-table-stripe-background: #fff;
+    --ifm-table-border-color: #fff;
+    --ifm-table-border-width: 0.2em;
+    /* The below are for tips and other admonitions*/
+    --ifm-color-success: #00a400;
+    --ifm-color-success-dark: rgb(0, 148, 0);
+    --ifm-color-success-darker: rgb(0, 139, 0);
+    --ifm-color-success-darkest: rgb(0, 115, 0);
+    --ifm-color-success-light: rgb(38, 178, 38);
+    --ifm-color-success-lighter: rgb(77, 191, 77);
+    --ifm-color-success-lightest: rgb(128, 210, 128);
+    --ifm-color-info: #54c7ec;
+    --ifm-color-info-dark: rgb(76, 179, 212);
+    --ifm-color-info-darker: rgb(71, 169, 201);
+    --ifm-color-info-darkest: rgb(59, 139, 165);
+    --ifm-color-info-light: rgb(110, 207, 239);
+    --ifm-color-info-lighter: rgb(135, 216, 242);
+    --ifm-color-info-lightest: rgb(170, 227, 246);
+    --ifm-color-warning: #ffba00;
+    --ifm-color-warning-dark: rgb(230, 167, 0);
+    --ifm-color-warning-darker: rgb(217, 158, 0);
+    --ifm-color-warning-darkest: rgb(179, 130, 0);
+    --ifm-color-warning-light: rgb(255, 196, 38);
+    --ifm-color-warning-lighter: rgb(255, 207, 77);
+    --ifm-color-warning-lightest: rgb(255, 221, 128);
+    --ifm-color-danger: #fa383e;
+    --ifm-color-danger-dark: rgb(225, 50, 56);
+    --ifm-color-danger-darker: rgb(213, 48, 53);
+    --ifm-color-danger-darkest: rgb(175, 39, 43);
+    --ifm-color-danger-light: rgb(251, 86, 91);
+    --ifm-color-danger-lighter: rgb(251, 116, 120);
+    --ifm-color-danger-lightest: rgb(253, 156, 159);
 }
+    .admonition h5 {
+    margin-bottom: 8px;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: var(--ra-admonition-icon-color);
+    font-family: Calibri;
+    font-size:1.3em;
+    font-weight:300;
+}
+
+.admonition-icon {
+    display: inline-block;
+    margin-right: .2em
+}
+
+
+    .admonition-icon svg {
+        stroke-width: 0;
+        fill: var(--ra-admonition-icon-color);
+        stroke: var(--ra-admonition-icon-color);
+        display: inline-block;
+        height: 22px;
+        width: 22px
+    }
+
+.admonition-content > :last-child, blockquote > :last-child {
+    margin-bottom: 0
+}
+
+.admonition-note {
+    --ra-admonition-color: rgb(0, 134, 179);
+    background-color: rgb(204, 242, 255);
+    border-color: rgba(0, 134, 179,0.5);
+}
+.admonition-tip {
+    --ra-admonition-color: rgb(45, 134, 45);
+    background-color: rgb(198, 236, 198);
+    border-color: rgba(45, 134, 45,0.5);
+}
+    /* The above are for tips and other admonitions*/
+
 
 .docusaurus-highlight-code-line {
     background-color: rgb(72, 77, 91);
@@ -292,34 +382,6 @@ h1 {
     display: inline !important;
 }
 
-.admonition h5 {
-    margin-bottom: 8px;
-    margin-top: 0;
-    text-transform: uppercase;
-    color: var(--ra-admonition-icon-color);
-}
-
-.admonition-icon {
-    display: inline-block;
-    margin-right: .2em
-}
-
-    .admonition-icon svg {
-        stroke-width: 0;
-        fill: var(--ra-admonition-icon-color);
-        stroke: var(--ra-admonition-icon-color);
-        display: inline-block;
-        height: 22px;
-        width: 22px
-    }
-
-.admonition-content > :last-child, blockquote > :last-child {
-    margin-bottom: 0
-}
-
-.admonition-note {
-    --ra-admonition-color: var(--ra-color-text-dark)
-}
 
 .hero__title {
     font-size: 3rem;
@@ -444,3 +506,42 @@ html[data-theme='dark'] .DocSearch {
     width: 100%;
 }
 /* Algolia Search above */
+
+/* Tables Below */
+
+table {
+    border-collapse: collapse;
+    display: block;
+    margin-bottom: var(--ifm-spacing-vertical);
+    overflow: auto;
+    width: 100%;
+}
+
+    table tr {
+        background-color: var(--ifm-table-row-background);
+        border-top: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+    }
+
+        table tr:nth-child(2n) {
+            background-color: var(--ifm-table-stripe-background);
+        }
+
+    table th,
+    table td {
+        border: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+        padding: var(--ifm-table-cell-padding);
+    }
+
+    table th {
+        background-color: var(--ifm-table-head-background);
+        color: var(--ifm-table-head-color);
+        font-weight: var(--ifm-table-head-font-weight);
+    }
+
+    table td {
+        color: var(--ifm-table-cell-color);
+    }
+
+
+
+/* Tables Above */
