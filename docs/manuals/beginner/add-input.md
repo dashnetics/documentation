@@ -250,7 +250,7 @@ for instance with first name and surname, don't tick 'Divide After' for first na
 </summary><p></p>
 
 
-:::tip For more information on Validation see [Custom Validation](/docs/manuals/advanced/custom-validation)  
+:::tip For more information on Validation see [Data Validation](/docs/manuals/advanced/data-validation)  
 
 
 

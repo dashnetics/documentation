@@ -1,8 +1,8 @@
 ---
 sidebar_position: 02.55
-id: custom-validation
-title: Adding Custom Validation
-sidebar_label: Adding Custom Validation to Inputs
+id: data-validation
+title: Adding Data Validation
+sidebar_label: Adding Data Validation to Inputs
 ---
 [<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-AddInput.mp4)
 
