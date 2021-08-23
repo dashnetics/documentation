@@ -250,14 +250,14 @@ for instance with first name and surname, don't tick 'Divide After' for first na
 </summary><p></p>
 
 
-:::tip <h3>For more information on Validation see [Custom Validation](/docs/manuals/advanced/custom-validation)  </h3>
+:::tip For more information on Validation see [Custom Validation](/docs/manuals/advanced/custom-validation)  
 
 
 
 :::
 
-:::note <h3 className="white">   you can add multiple validations on the same input </h3>
-<p className="white">
+:::note  You can add multiple validations on the same input 
+
 
 for instance with an input of "age" you may have a maximum AND minimum
 
@@ -273,11 +273,11 @@ and
 | --- | --- | --- | 
 |Less Than|  120| Wow, you look great for your age!|
 
-</p>
+
 :::
 
-:::note <h3 className="white">  Using todays date to validate </h3>
-<p className="white">
+:::note  Using todays date to validate 
+
 
 In the above example, instead of an input of "age" you may have a "Date of Birth" field
 
@@ -293,7 +293,7 @@ and
 | --- | --- | --- | 
 |Greater Than|  today-120| Wow, you look great for your age!|
 
-</p>
+
 :::
 
 ![img](/img/add-input-validation.png)
