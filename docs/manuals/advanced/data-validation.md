@@ -40,7 +40,6 @@ eg - to limit [age] input between 6 and 120
 
 
 
-
 ## Using Current Date in Validators
 
 Any date validator (Greater Than, Less Than, or Equal To) you can specify the date to be checked relative to the current date.
@@ -80,6 +79,27 @@ eg - to limit [Date of Birth] to between 6 and 120
 
 
 :::
+
+
+
+## Using Validators to ensure unique values
+
+Validators can not only take numbers, text, formulae and dates, they can also accept {{fields}}.
+
+Remember to use your curly braces when quoting field names.
+
+This allows fus to ensure 1 value entered does not equal another, let's take phone numbers as an example.
+
+| Mobile Phone| Value | Text |
+| :---: | :---: | :---: |
+|Minumum Length| 10 |Are you missing a digit?|
+|Maximum Length| 10 |Too many digits!|
+
+| Other Phone| Value | Text |
+| :---: | :---: | :---: |
+|Not Equal to| {{Mobile Phone}} |We already have this number|
+
+[<i className="material-icons-h1 end">videocam</i> Watch this example video tutorial](/vids/Dashnetics-Validation-Unique-Values.mp4)
 
 
 ## <i className="material-icons color">image</i> Adding validation to an input

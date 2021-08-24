@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\docs",
+    "\\docs\\admin_menu_items",
+    "\\docs\\features",
     "\\docs\\manuals",
     "\\docs\\manuals\\advanced",
     "\\docs\\manuals\\advanced\\import-data",
-    "\\docs\\manuals\\styling",
-    "\\docs\\tutorials",
-    "\\src",
-    "\\src\\css",
-    "\\static"
+    "\\docs\\manuals\\beginner",
+    "\\src\\components",
+    "\\static\\files"
   ],
-  "SelectedNode": "\\docs\\manuals\\beginner\\beginner-intro.md",
+  "SelectedNode": "\\docs\\admin_menu_items",
   "PreviewInSolutionExplorer": false
 }
