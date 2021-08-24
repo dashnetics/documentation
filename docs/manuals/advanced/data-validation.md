@@ -100,7 +100,7 @@ This allows fus to ensure 1 value entered does not equal another, let's take pho
 |Not Equal to| {{Mobile Phone}} |We already have this number|
 
 
-Watch this example video tutorial [<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-Validation-Unique-Values.mp4)
+Watch this example video tutorial [<i className="material-icons-h1">videocam</i>](/vids/Dashnetics-Validation-Unique-Values.mp4)
 
 
 ## <i className="material-icons color">image</i> Adding validation to an input
