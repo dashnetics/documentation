@@ -92,14 +92,15 @@ This allows fus to ensure 1 value entered does not equal another, let's take pho
 
 | Mobile Phone| Value | Text |
 | :---: | :---: | :---: |
-|Minumum Length| 10 |Are you missing a digit?|
-|Maximum Length| 10 |Too many digits!|
+|Minumum Length| 10 |<span className="transparent"> -</span> Are you missing a digit?<span className="transparent"> -</span> |
+|Maximum Length| 10 |<span className="transparent"> -</span> Too many digits!<span className="transparent"> -</span> |
 
 | Other Phone| Value | Text |
 | :---: | :---: | :---: |
 |Not Equal to| {{Mobile Phone}} |We already have this number|
 
-[<i className="material-icons-h1 end">videocam</i> Watch this example video tutorial](/vids/Dashnetics-Validation-Unique-Values.mp4)
+
+Watch this example video tutorial [<i className="material-icons-h1 end">videocam</i>](/vids/Dashnetics-Validation-Unique-Values.mp4)
 
 
 ## <i className="material-icons color">image</i> Adding validation to an input
