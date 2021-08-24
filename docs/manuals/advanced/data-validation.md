@@ -86,21 +86,22 @@ eg - to limit [Date of Birth] to between 6 and 120
 
 Validators can not only take numbers, text, formulae and dates, they can also accept {{fields}}.
 
+[<i className="material-icons color">videocam</i> Watch this example video tutorial ](/vids/Dashnetics-Validation-Unique-Values.mp4)
+
 Remember to use your curly braces when quoting field names.
 
 This allows fus to ensure 1 value entered does not equal another, let's take phone numbers as an example.
 
 | Mobile Phone| Value | Text |
 | :---: | :---: | :---: |
-|Minumum Length| 10 |<span className="transparent"> -</span> Are you missing a digit?<span className="transparent"> -</span> |
-|Maximum Length| 10 |<span className="transparent"> -</span> Too many digits!<span className="transparent"> -</span> |
+|Minumum Length| <span className="transparent"> ------ </span> 10 <span className="transparent"> ------ </span> |<span className="transparent"> --- </span> Are you missing a digit?<span className="transparent"> --- </span> |
+|Maximum Length| <span className="transparent"> ------ </span> 10 <span className="transparent"> ------ </span> |<span className="transparent"> --- </span> Too many digits!<span className="transparent"> --- </span> |
 
 | Other Phone| Value | Text |
 | :---: | :---: | :---: |
 |Not Equal to| {{Mobile Phone}} |We already have this number|
 
 
-Watch this example video tutorial [<i className="material-icons-h1">videocam</i>](/vids/Dashnetics-Validation-Unique-Values.mp4)
 
 
 ## <i className="material-icons color">image</i> Adding validation to an input
