@@ -40,7 +40,7 @@ Flags to create an Audience/List for each list. If not flagged, Dashnetics will 
 
 ## Sending Data to MailChimp
 
-The 'Name' of the list in CX is the name of the Audience or Tag in MailChimp.
+The 'Name' of the list in Dashnetics is the name of the Audience or Tag in MailChimp.
 
 Clicking 'Save and Send to MailChimp' in the edit screen will save the list and send it directly to MailChimp.
 
@@ -58,9 +58,9 @@ In addition to all custom fields, the following fields can be sent as Merge fiel
 
 | Field Name | Description|
 | - | - |
-| CX_ID     | ID of the record    | 
-| CX_NAME | Name of the company or contact |
-| CX_IMPORTID | Import ID of the company or contact |
-| CX_FIRSTNAME | First name of the contact (invalid for companies) |
-| CX_LASTNAME | Last name of the contact (invalid for companies) |
-| CX_EMAIL | Email of the contact (invalid for companies) |
+| DASHNETICS_ID     | ID of the record    | 
+| DASHNETICS_NAME | Name of the company or contact |
+| DASHNETICS_IMPORTID | Import ID of the company or contact |
+| DASHNETICS_FIRSTNAME | First name of the contact (invalid for companies) |
+| DASHNETICS_LASTNAME | Last name of the contact (invalid for companies) |
+| DASHNETICS_EMAIL | Email of the contact (invalid for companies) |
