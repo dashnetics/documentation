@@ -35,35 +35,22 @@ Dashnetics very proudly offer one of the best Customer Experience (CX) Support S
 
 
 
-## Contacting your CX Support Team
+## Contacting your Dashnetics Support Team
 
 If you need Help, or can't find what you are looking for:
 
-Clicking <i className="material-icons color">headset</i> opens an online meeting to your CX Support Team with video for a live walkthrough.
 
 Clicking <i className="material-icons color">call</i> starts a phone call to a Dashnetics Support Team Member.
 
 Clicking <i className="material-icons color">mail</i> emails the Dashnetics Support Team.
 
-Clicking <i className="material-icons color">forum</i> opens a live chat with a Dashnetics Support Team Member.
 
-## CX Support - Hours of Operation
+## Support - Hours of Operation
 
 
-Dashnetics commits to providing Live CX Support between the hours of
+Dashnetics commits to providing Live Support between the hours of
 
 **09:00-17:00 Monday to Friday.** 
-
-Dashnetics often have CX Support Team Members working **throughout the night and even weekends**.
-
-On the rare occasions the CX Support Team are all unavailable, the live CX help buttons will disappear, and 
-
-you will have access to <i className="material-icons color">mail</i> and a new icon <i className="material-icons color">videocam</i> , opens our screen recorder plugin which 
-1. allows you to explain what you are trying to do and records your screen,
-2. creates a support ticket, and 
-3. emails CX Support with the ticket, the issue and the recording,
-4. CX Support will then reply ASAP.
-
 
 > "Somewhere, something incredible is waiting to be discovered by someone"
 
