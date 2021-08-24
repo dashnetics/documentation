@@ -31,7 +31,7 @@ Click on <i className="material-icons color">photo</i> to view the related scree
 
 > "Building a great Customer Experience does not happen by accident, it happens by DESIGN"
 
-Dashnetics very proudly offer one of the best Customer Experience (CX) Support Systems available.
+Dashnetics very proudly offer one of the best Customer Experience Support Systems available.
 
 
 
