@@ -89,6 +89,18 @@ const FeatureList = [
                                    </>
                                    ),
                      },
+                     {
+                     title: 'Add to your current website or store',
+                     imageUrl: 'img/iframe.jpg',
+                     addr: () => {
+                     window.location.href = "http://dashnetics.com.au"
+                     },
+                     description: (
+                                   <>
+                                   Don't waste resources that currently work for you, embed your current webpages into Dashnetics pages or vice versa easily and seamlessly
+                                   </>
+                                   ),
+                     },
 ];
 
 function Feature({ imageUrl, Svg, title, description, addr }) {
