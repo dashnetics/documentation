@@ -90,14 +90,14 @@ const FeatureList = [
                                    ),
                      },
                      {
-                     title: 'Add to your current website or store',
+                     title: 'Add the power of Dashnetics into your current website or store',
                      imageUrl: 'img/iframe.jpg',
                      addr: () => {
                      window.location.href = "http://dashnetics.com.au"
                      },
                      description: (
                                    <>
-                                   Don't waste resources that currently work for you, embed your current webpages into Dashnetics pages or vice versa easily and seamlessly
+                                   Don't waste resources that currently work for you, or re-invent the wheel, you can embed your Dashnetics forms and pages into your current site or vice versa easily and seamlessly
                                    </>
                                    ),
                      },
