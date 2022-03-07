@@ -86,7 +86,7 @@ const FeatureList = [
                      },
                      description: (
                                    <>
-                                   Easily and automatically manage your mailing lists, as well as mail & marketing content, frequency, audience and responses.
+                                   Easily and automatically manage your mailing lists as well as mail & marketing content, frequency, audience and responses.
                                    </>
                                    ),
                      },
