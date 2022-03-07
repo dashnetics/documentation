@@ -31,7 +31,7 @@ const FeatureList = [
     },
     {
         title: 'Designed for Mobile, Tablet and Desktop',
-        imageUrl: 'img/rmobile-first.jpg',
+        imageUrl: 'img/mobile-first.jpg',
         addr: () => {
             window.location.href = "./docs/features/features-intro"
         },
